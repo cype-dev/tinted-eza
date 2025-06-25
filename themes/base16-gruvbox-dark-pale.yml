@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: Gruvbox dark, pale
+# Scheme Author: Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#dab997"}
+  directory: {foreground: "#83adad"}
+  symlink: {foreground: "#85ad85"}
+  pipe: {foreground: "#949494"}
+  block_device: {foreground: "#ffaf00"}
+  char_device: {foreground: "#ffaf00"}
+  socket: {foreground: "#949494"}
+  special: {foreground: "#d485ad"}
+  executable: {foreground: "#afaf00"}
+  mount_point: {foreground: "#83adad"}
+
+perms:
+  user_read: {foreground: "#dab997"}
+  user_write: {foreground: "#ff8700"}
+  user_execute_file: {foreground: "#afaf00"}
+  user_execute_other: {foreground: "#afaf00"}
+  group_read: {foreground: "#dab997"}
+  group_write: {foreground: "#ff8700"}
+  group_execute: {foreground: "#afaf00"}
+  other_read: {foreground: "#949494"}
+  other_write: {foreground: "#ff8700"}
+  other_execute: {foreground: "#afaf00"}
+  special_user_file: {foreground: "#d485ad"}
+  special_other: {foreground: "#949494"}
+  attribute: {foreground: "#949494"}
+
+size:
+  major: {foreground: "#949494"}
+  minor: {foreground: "#85ad85"}
+  number_byte: {foreground: "#dab997"}
+  number_kilo: {foreground: "#dab997"}
+  number_mega: {foreground: "#83adad"}
+  number_giga: {foreground: "#d485ad"}
+  number_huge: {foreground: "#d485ad"}
+  unit_byte: {foreground: "#949494"}
+  unit_kilo: {foreground: "#83adad"}
+  unit_mega: {foreground: "#d485ad"}
+  unit_giga: {foreground: "#d485ad"}
+  unit_huge: {foreground: "#83adad"}
+
+users:
+  user_you: {foreground: "#dab997"}
+  user_root: {foreground: "#d75f5f"}
+  user_other: {foreground: "#d485ad"}
+  group_yours: {foreground: "#dab997"}
+  group_other: {foreground: "#949494"}
+  group_root: {foreground: "#d75f5f"}
+
+links:
+  normal: {foreground: "#85ad85"}
+  multi_link_file: {foreground: "#83adad"}
+
+git:
+  new: {foreground: "#afaf00"}
+  modified: {foreground: "#ffaf00"}
+  deleted: {foreground: "#d75f5f"}
+  renamed: {foreground: "#afaf00"}
+  typechange: {foreground: "#d485ad"}
+  ignored: {foreground: "#949494"}
+  conflicted: {foreground: "#d75f5f"}
+
+git_repo:
+  branch_main: {foreground: "#dab997"}
+  branch_other: {foreground: "#d485ad"}
+  git_clean: {foreground: "#afaf00"}
+  git_dirty: {foreground: "#d75f5f"}
+
+security_context:
+  colon: {foreground: "#949494"}
+  user: {foreground: "#dab997"}
+  role: {foreground: "#d485ad"}
+  typ: {foreground: "#949494"}
+  range: {foreground: "#d485ad"}
+
+file_type:
+  image: {foreground: "#ffaf00"}
+  video: {foreground: "#d75f5f"}
+  music: {foreground: "#afaf00"}
+  lossless: {foreground: "#85ad85"}
+  crypto: {foreground: "#949494"}
+  document: {foreground: "#dab997"}
+  compressed: {foreground: "#d485ad"}
+  temp: {foreground: "#d75f5f"}
+  compiled: {foreground: "#83adad"}
+  build: {foreground: "#949494"}
+  source: {foreground: "#83adad"}
+
+punctuation: {foreground: "#949494"}
+date: {foreground: "#ffaf00"}
+inode: {foreground: "#949494"}
+blocks: {foreground: "#949494"}
+header: {foreground: "#dab997"}
+octal: {foreground: "#85ad85"}
+flags: {foreground: "#d485ad"}
+
+symlink_path: {foreground: "#85ad85"}
+control_char: {foreground: "#83adad"}
+broken_symlink: {foreground: "#d75f5f"}
+broken_path_overlay: {foreground: "#949494"}

@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: Circus
+# Scheme Author: Stephan Boyer (https://github.com/stepchowfun) and Esther Wang (https://github.com/ewang12)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#a7a7a7"}
+  directory: {foreground: "#639ee4"}
+  symlink: {foreground: "#4bb1a7"}
+  pipe: {foreground: "#505050"}
+  block_device: {foreground: "#c3ba63"}
+  char_device: {foreground: "#c3ba63"}
+  socket: {foreground: "#505050"}
+  special: {foreground: "#b888e2"}
+  executable: {foreground: "#84b97c"}
+  mount_point: {foreground: "#639ee4"}
+
+perms:
+  user_read: {foreground: "#a7a7a7"}
+  user_write: {foreground: "#4bb1a7"}
+  user_execute_file: {foreground: "#84b97c"}
+  user_execute_other: {foreground: "#84b97c"}
+  group_read: {foreground: "#a7a7a7"}
+  group_write: {foreground: "#4bb1a7"}
+  group_execute: {foreground: "#84b97c"}
+  other_read: {foreground: "#505050"}
+  other_write: {foreground: "#4bb1a7"}
+  other_execute: {foreground: "#84b97c"}
+  special_user_file: {foreground: "#b888e2"}
+  special_other: {foreground: "#505050"}
+  attribute: {foreground: "#505050"}
+
+size:
+  major: {foreground: "#505050"}
+  minor: {foreground: "#4bb1a7"}
+  number_byte: {foreground: "#a7a7a7"}
+  number_kilo: {foreground: "#a7a7a7"}
+  number_mega: {foreground: "#639ee4"}
+  number_giga: {foreground: "#b888e2"}
+  number_huge: {foreground: "#b888e2"}
+  unit_byte: {foreground: "#505050"}
+  unit_kilo: {foreground: "#639ee4"}
+  unit_mega: {foreground: "#b888e2"}
+  unit_giga: {foreground: "#b888e2"}
+  unit_huge: {foreground: "#639ee4"}
+
+users:
+  user_you: {foreground: "#a7a7a7"}
+  user_root: {foreground: "#dc657d"}
+  user_other: {foreground: "#b888e2"}
+  group_yours: {foreground: "#a7a7a7"}
+  group_other: {foreground: "#505050"}
+  group_root: {foreground: "#dc657d"}
+
+links:
+  normal: {foreground: "#4bb1a7"}
+  multi_link_file: {foreground: "#639ee4"}
+
+git:
+  new: {foreground: "#84b97c"}
+  modified: {foreground: "#c3ba63"}
+  deleted: {foreground: "#dc657d"}
+  renamed: {foreground: "#84b97c"}
+  typechange: {foreground: "#b888e2"}
+  ignored: {foreground: "#505050"}
+  conflicted: {foreground: "#dc657d"}
+
+git_repo:
+  branch_main: {foreground: "#a7a7a7"}
+  branch_other: {foreground: "#b888e2"}
+  git_clean: {foreground: "#84b97c"}
+  git_dirty: {foreground: "#dc657d"}
+
+security_context:
+  colon: {foreground: "#505050"}
+  user: {foreground: "#a7a7a7"}
+  role: {foreground: "#b888e2"}
+  typ: {foreground: "#505050"}
+  range: {foreground: "#b888e2"}
+
+file_type:
+  image: {foreground: "#c3ba63"}
+  video: {foreground: "#dc657d"}
+  music: {foreground: "#84b97c"}
+  lossless: {foreground: "#4bb1a7"}
+  crypto: {foreground: "#505050"}
+  document: {foreground: "#a7a7a7"}
+  compressed: {foreground: "#b888e2"}
+  temp: {foreground: "#dc657d"}
+  compiled: {foreground: "#639ee4"}
+  build: {foreground: "#505050"}
+  source: {foreground: "#639ee4"}
+
+punctuation: {foreground: "#505050"}
+date: {foreground: "#c3ba63"}
+inode: {foreground: "#505050"}
+blocks: {foreground: "#505050"}
+header: {foreground: "#a7a7a7"}
+octal: {foreground: "#4bb1a7"}
+flags: {foreground: "#b888e2"}
+
+symlink_path: {foreground: "#4bb1a7"}
+control_char: {foreground: "#639ee4"}
+broken_symlink: {foreground: "#dc657d"}
+broken_path_overlay: {foreground: "#505050"}

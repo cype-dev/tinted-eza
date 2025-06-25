@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: Spacemacs
+# Scheme Author: Nasser Alshammari (https://github.com/nashamri/spacemacs-theme)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#a3a3a3"}
+  directory: {foreground: "#4f97d7"}
+  symlink: {foreground: "#2d9574"}
+  pipe: {foreground: "#b8b8b8"}
+  block_device: {foreground: "#b1951d"}
+  char_device: {foreground: "#b1951d"}
+  socket: {foreground: "#b8b8b8"}
+  special: {foreground: "#a31db1"}
+  executable: {foreground: "#67b11d"}
+  mount_point: {foreground: "#4f97d7"}
+
+perms:
+  user_read: {foreground: "#a3a3a3"}
+  user_write: {foreground: "#ffa500"}
+  user_execute_file: {foreground: "#67b11d"}
+  user_execute_other: {foreground: "#67b11d"}
+  group_read: {foreground: "#a3a3a3"}
+  group_write: {foreground: "#ffa500"}
+  group_execute: {foreground: "#67b11d"}
+  other_read: {foreground: "#b8b8b8"}
+  other_write: {foreground: "#ffa500"}
+  other_execute: {foreground: "#67b11d"}
+  special_user_file: {foreground: "#a31db1"}
+  special_other: {foreground: "#b8b8b8"}
+  attribute: {foreground: "#b8b8b8"}
+
+size:
+  major: {foreground: "#b8b8b8"}
+  minor: {foreground: "#2d9574"}
+  number_byte: {foreground: "#a3a3a3"}
+  number_kilo: {foreground: "#a3a3a3"}
+  number_mega: {foreground: "#4f97d7"}
+  number_giga: {foreground: "#a31db1"}
+  number_huge: {foreground: "#a31db1"}
+  unit_byte: {foreground: "#b8b8b8"}
+  unit_kilo: {foreground: "#4f97d7"}
+  unit_mega: {foreground: "#a31db1"}
+  unit_giga: {foreground: "#a31db1"}
+  unit_huge: {foreground: "#4f97d7"}
+
+users:
+  user_you: {foreground: "#a3a3a3"}
+  user_root: {foreground: "#f2241f"}
+  user_other: {foreground: "#a31db1"}
+  group_yours: {foreground: "#a3a3a3"}
+  group_other: {foreground: "#b8b8b8"}
+  group_root: {foreground: "#f2241f"}
+
+links:
+  normal: {foreground: "#2d9574"}
+  multi_link_file: {foreground: "#4f97d7"}
+
+git:
+  new: {foreground: "#67b11d"}
+  modified: {foreground: "#b1951d"}
+  deleted: {foreground: "#f2241f"}
+  renamed: {foreground: "#67b11d"}
+  typechange: {foreground: "#a31db1"}
+  ignored: {foreground: "#b8b8b8"}
+  conflicted: {foreground: "#f2241f"}
+
+git_repo:
+  branch_main: {foreground: "#a3a3a3"}
+  branch_other: {foreground: "#a31db1"}
+  git_clean: {foreground: "#67b11d"}
+  git_dirty: {foreground: "#f2241f"}
+
+security_context:
+  colon: {foreground: "#b8b8b8"}
+  user: {foreground: "#a3a3a3"}
+  role: {foreground: "#a31db1"}
+  typ: {foreground: "#b8b8b8"}
+  range: {foreground: "#a31db1"}
+
+file_type:
+  image: {foreground: "#b1951d"}
+  video: {foreground: "#f2241f"}
+  music: {foreground: "#67b11d"}
+  lossless: {foreground: "#2d9574"}
+  crypto: {foreground: "#b8b8b8"}
+  document: {foreground: "#a3a3a3"}
+  compressed: {foreground: "#a31db1"}
+  temp: {foreground: "#f2241f"}
+  compiled: {foreground: "#4f97d7"}
+  build: {foreground: "#b8b8b8"}
+  source: {foreground: "#4f97d7"}
+
+punctuation: {foreground: "#b8b8b8"}
+date: {foreground: "#b1951d"}
+inode: {foreground: "#b8b8b8"}
+blocks: {foreground: "#b8b8b8"}
+header: {foreground: "#a3a3a3"}
+octal: {foreground: "#2d9574"}
+flags: {foreground: "#a31db1"}
+
+symlink_path: {foreground: "#2d9574"}
+control_char: {foreground: "#4f97d7"}
+broken_symlink: {foreground: "#f2241f"}
+broken_path_overlay: {foreground: "#b8b8b8"}

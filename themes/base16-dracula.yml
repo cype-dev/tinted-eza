@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: Dracula
+# Scheme Author: Jamy Golden (http://github.com/JamyGolden), based on Dracula Theme (http://github.com/dracula)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#f8f8f2"}
+  directory: {foreground: "#80bfff"}
+  symlink: {foreground: "#8be9fd"}
+  pipe: {foreground: "#9ea8c7"}
+  block_device: {foreground: "#f1fa8c"}
+  char_device: {foreground: "#f1fa8c"}
+  socket: {foreground: "#9ea8c7"}
+  special: {foreground: "#ff79c6"}
+  executable: {foreground: "#50fa7b"}
+  mount_point: {foreground: "#80bfff"}
+
+perms:
+  user_read: {foreground: "#f8f8f2"}
+  user_write: {foreground: "#ffb86c"}
+  user_execute_file: {foreground: "#50fa7b"}
+  user_execute_other: {foreground: "#50fa7b"}
+  group_read: {foreground: "#f8f8f2"}
+  group_write: {foreground: "#ffb86c"}
+  group_execute: {foreground: "#50fa7b"}
+  other_read: {foreground: "#9ea8c7"}
+  other_write: {foreground: "#ffb86c"}
+  other_execute: {foreground: "#50fa7b"}
+  special_user_file: {foreground: "#ff79c6"}
+  special_other: {foreground: "#9ea8c7"}
+  attribute: {foreground: "#9ea8c7"}
+
+size:
+  major: {foreground: "#9ea8c7"}
+  minor: {foreground: "#8be9fd"}
+  number_byte: {foreground: "#f8f8f2"}
+  number_kilo: {foreground: "#f8f8f2"}
+  number_mega: {foreground: "#80bfff"}
+  number_giga: {foreground: "#ff79c6"}
+  number_huge: {foreground: "#ff79c6"}
+  unit_byte: {foreground: "#9ea8c7"}
+  unit_kilo: {foreground: "#80bfff"}
+  unit_mega: {foreground: "#ff79c6"}
+  unit_giga: {foreground: "#ff79c6"}
+  unit_huge: {foreground: "#80bfff"}
+
+users:
+  user_you: {foreground: "#f8f8f2"}
+  user_root: {foreground: "#ff5555"}
+  user_other: {foreground: "#ff79c6"}
+  group_yours: {foreground: "#f8f8f2"}
+  group_other: {foreground: "#9ea8c7"}
+  group_root: {foreground: "#ff5555"}
+
+links:
+  normal: {foreground: "#8be9fd"}
+  multi_link_file: {foreground: "#80bfff"}
+
+git:
+  new: {foreground: "#50fa7b"}
+  modified: {foreground: "#f1fa8c"}
+  deleted: {foreground: "#ff5555"}
+  renamed: {foreground: "#50fa7b"}
+  typechange: {foreground: "#ff79c6"}
+  ignored: {foreground: "#9ea8c7"}
+  conflicted: {foreground: "#ff5555"}
+
+git_repo:
+  branch_main: {foreground: "#f8f8f2"}
+  branch_other: {foreground: "#ff79c6"}
+  git_clean: {foreground: "#50fa7b"}
+  git_dirty: {foreground: "#ff5555"}
+
+security_context:
+  colon: {foreground: "#9ea8c7"}
+  user: {foreground: "#f8f8f2"}
+  role: {foreground: "#ff79c6"}
+  typ: {foreground: "#9ea8c7"}
+  range: {foreground: "#ff79c6"}
+
+file_type:
+  image: {foreground: "#f1fa8c"}
+  video: {foreground: "#ff5555"}
+  music: {foreground: "#50fa7b"}
+  lossless: {foreground: "#8be9fd"}
+  crypto: {foreground: "#9ea8c7"}
+  document: {foreground: "#f8f8f2"}
+  compressed: {foreground: "#ff79c6"}
+  temp: {foreground: "#ff5555"}
+  compiled: {foreground: "#80bfff"}
+  build: {foreground: "#9ea8c7"}
+  source: {foreground: "#80bfff"}
+
+punctuation: {foreground: "#9ea8c7"}
+date: {foreground: "#f1fa8c"}
+inode: {foreground: "#9ea8c7"}
+blocks: {foreground: "#9ea8c7"}
+header: {foreground: "#f8f8f2"}
+octal: {foreground: "#8be9fd"}
+flags: {foreground: "#ff79c6"}
+
+symlink_path: {foreground: "#8be9fd"}
+control_char: {foreground: "#80bfff"}
+broken_symlink: {foreground: "#ff5555"}
+broken_path_overlay: {foreground: "#9ea8c7"}

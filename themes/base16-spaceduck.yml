@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: Spaceduck
+# Scheme Author: Guillermo Rodriguez (https://github.com/pineapplegiant), packaged by Gabriel Fontes (https://github.com/Misterio77)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#ecf0c1"}
+  directory: {foreground: "#7a5ccc"}
+  symlink: {foreground: "#00a3cc"}
+  pipe: {foreground: "#818596"}
+  block_device: {foreground: "#f2ce00"}
+  char_device: {foreground: "#f2ce00"}
+  socket: {foreground: "#818596"}
+  special: {foreground: "#b3a1e6"}
+  executable: {foreground: "#5ccc96"}
+  mount_point: {foreground: "#7a5ccc"}
+
+perms:
+  user_read: {foreground: "#ecf0c1"}
+  user_write: {foreground: "#e39400"}
+  user_execute_file: {foreground: "#5ccc96"}
+  user_execute_other: {foreground: "#5ccc96"}
+  group_read: {foreground: "#ecf0c1"}
+  group_write: {foreground: "#e39400"}
+  group_execute: {foreground: "#5ccc96"}
+  other_read: {foreground: "#818596"}
+  other_write: {foreground: "#e39400"}
+  other_execute: {foreground: "#5ccc96"}
+  special_user_file: {foreground: "#b3a1e6"}
+  special_other: {foreground: "#818596"}
+  attribute: {foreground: "#818596"}
+
+size:
+  major: {foreground: "#818596"}
+  minor: {foreground: "#00a3cc"}
+  number_byte: {foreground: "#ecf0c1"}
+  number_kilo: {foreground: "#ecf0c1"}
+  number_mega: {foreground: "#7a5ccc"}
+  number_giga: {foreground: "#b3a1e6"}
+  number_huge: {foreground: "#b3a1e6"}
+  unit_byte: {foreground: "#818596"}
+  unit_kilo: {foreground: "#7a5ccc"}
+  unit_mega: {foreground: "#b3a1e6"}
+  unit_giga: {foreground: "#b3a1e6"}
+  unit_huge: {foreground: "#7a5ccc"}
+
+users:
+  user_you: {foreground: "#ecf0c1"}
+  user_root: {foreground: "#e33400"}
+  user_other: {foreground: "#b3a1e6"}
+  group_yours: {foreground: "#ecf0c1"}
+  group_other: {foreground: "#818596"}
+  group_root: {foreground: "#e33400"}
+
+links:
+  normal: {foreground: "#00a3cc"}
+  multi_link_file: {foreground: "#7a5ccc"}
+
+git:
+  new: {foreground: "#5ccc96"}
+  modified: {foreground: "#f2ce00"}
+  deleted: {foreground: "#e33400"}
+  renamed: {foreground: "#5ccc96"}
+  typechange: {foreground: "#b3a1e6"}
+  ignored: {foreground: "#818596"}
+  conflicted: {foreground: "#e33400"}
+
+git_repo:
+  branch_main: {foreground: "#ecf0c1"}
+  branch_other: {foreground: "#b3a1e6"}
+  git_clean: {foreground: "#5ccc96"}
+  git_dirty: {foreground: "#e33400"}
+
+security_context:
+  colon: {foreground: "#818596"}
+  user: {foreground: "#ecf0c1"}
+  role: {foreground: "#b3a1e6"}
+  typ: {foreground: "#818596"}
+  range: {foreground: "#b3a1e6"}
+
+file_type:
+  image: {foreground: "#f2ce00"}
+  video: {foreground: "#e33400"}
+  music: {foreground: "#5ccc96"}
+  lossless: {foreground: "#00a3cc"}
+  crypto: {foreground: "#818596"}
+  document: {foreground: "#ecf0c1"}
+  compressed: {foreground: "#b3a1e6"}
+  temp: {foreground: "#e33400"}
+  compiled: {foreground: "#7a5ccc"}
+  build: {foreground: "#818596"}
+  source: {foreground: "#7a5ccc"}
+
+punctuation: {foreground: "#818596"}
+date: {foreground: "#f2ce00"}
+inode: {foreground: "#818596"}
+blocks: {foreground: "#818596"}
+header: {foreground: "#ecf0c1"}
+octal: {foreground: "#00a3cc"}
+flags: {foreground: "#b3a1e6"}
+
+symlink_path: {foreground: "#00a3cc"}
+control_char: {foreground: "#7a5ccc"}
+broken_symlink: {foreground: "#e33400"}
+broken_path_overlay: {foreground: "#818596"}

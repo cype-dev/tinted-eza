@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: Windows High Contrast
+# Scheme Author: Fergus Collins (https://github.com/ferguscollins)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#c0c0c0"}
+  directory: {foreground: "#5454fc"}
+  symlink: {foreground: "#54fcfc"}
+  pipe: {foreground: "#a2a2a2"}
+  block_device: {foreground: "#fcfc54"}
+  char_device: {foreground: "#fcfc54"}
+  socket: {foreground: "#a2a2a2"}
+  special: {foreground: "#fc54fc"}
+  executable: {foreground: "#54fc54"}
+  mount_point: {foreground: "#5454fc"}
+
+perms:
+  user_read: {foreground: "#c0c0c0"}
+  user_write: {foreground: "#808000"}
+  user_execute_file: {foreground: "#54fc54"}
+  user_execute_other: {foreground: "#54fc54"}
+  group_read: {foreground: "#c0c0c0"}
+  group_write: {foreground: "#808000"}
+  group_execute: {foreground: "#54fc54"}
+  other_read: {foreground: "#a2a2a2"}
+  other_write: {foreground: "#808000"}
+  other_execute: {foreground: "#54fc54"}
+  special_user_file: {foreground: "#fc54fc"}
+  special_other: {foreground: "#a2a2a2"}
+  attribute: {foreground: "#a2a2a2"}
+
+size:
+  major: {foreground: "#a2a2a2"}
+  minor: {foreground: "#54fcfc"}
+  number_byte: {foreground: "#c0c0c0"}
+  number_kilo: {foreground: "#c0c0c0"}
+  number_mega: {foreground: "#5454fc"}
+  number_giga: {foreground: "#fc54fc"}
+  number_huge: {foreground: "#fc54fc"}
+  unit_byte: {foreground: "#a2a2a2"}
+  unit_kilo: {foreground: "#5454fc"}
+  unit_mega: {foreground: "#fc54fc"}
+  unit_giga: {foreground: "#fc54fc"}
+  unit_huge: {foreground: "#5454fc"}
+
+users:
+  user_you: {foreground: "#c0c0c0"}
+  user_root: {foreground: "#fc5454"}
+  user_other: {foreground: "#fc54fc"}
+  group_yours: {foreground: "#c0c0c0"}
+  group_other: {foreground: "#a2a2a2"}
+  group_root: {foreground: "#fc5454"}
+
+links:
+  normal: {foreground: "#54fcfc"}
+  multi_link_file: {foreground: "#5454fc"}
+
+git:
+  new: {foreground: "#54fc54"}
+  modified: {foreground: "#fcfc54"}
+  deleted: {foreground: "#fc5454"}
+  renamed: {foreground: "#54fc54"}
+  typechange: {foreground: "#fc54fc"}
+  ignored: {foreground: "#a2a2a2"}
+  conflicted: {foreground: "#fc5454"}
+
+git_repo:
+  branch_main: {foreground: "#c0c0c0"}
+  branch_other: {foreground: "#fc54fc"}
+  git_clean: {foreground: "#54fc54"}
+  git_dirty: {foreground: "#fc5454"}
+
+security_context:
+  colon: {foreground: "#a2a2a2"}
+  user: {foreground: "#c0c0c0"}
+  role: {foreground: "#fc54fc"}
+  typ: {foreground: "#a2a2a2"}
+  range: {foreground: "#fc54fc"}
+
+file_type:
+  image: {foreground: "#fcfc54"}
+  video: {foreground: "#fc5454"}
+  music: {foreground: "#54fc54"}
+  lossless: {foreground: "#54fcfc"}
+  crypto: {foreground: "#a2a2a2"}
+  document: {foreground: "#c0c0c0"}
+  compressed: {foreground: "#fc54fc"}
+  temp: {foreground: "#fc5454"}
+  compiled: {foreground: "#5454fc"}
+  build: {foreground: "#a2a2a2"}
+  source: {foreground: "#5454fc"}
+
+punctuation: {foreground: "#a2a2a2"}
+date: {foreground: "#fcfc54"}
+inode: {foreground: "#a2a2a2"}
+blocks: {foreground: "#a2a2a2"}
+header: {foreground: "#c0c0c0"}
+octal: {foreground: "#54fcfc"}
+flags: {foreground: "#fc54fc"}
+
+symlink_path: {foreground: "#54fcfc"}
+control_char: {foreground: "#5454fc"}
+broken_symlink: {foreground: "#fc5454"}
+broken_path_overlay: {foreground: "#a2a2a2"}

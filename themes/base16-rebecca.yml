@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: Rebecca
+# Scheme Author: Victor Borja (http://github.com/vic) based on Rebecca Theme (http://github.com/vic/rebecca-theme)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#f1eff8"}
+  directory: {foreground: "#2de0a7"}
+  symlink: {foreground: "#8eaee0"}
+  pipe: {foreground: "#a0a0c5"}
+  block_device: {foreground: "#ae81ff"}
+  char_device: {foreground: "#ae81ff"}
+  socket: {foreground: "#a0a0c5"}
+  special: {foreground: "#7aa5ff"}
+  executable: {foreground: "#6dfedf"}
+  mount_point: {foreground: "#2de0a7"}
+
+perms:
+  user_read: {foreground: "#f1eff8"}
+  user_write: {foreground: "#efe4a1"}
+  user_execute_file: {foreground: "#6dfedf"}
+  user_execute_other: {foreground: "#6dfedf"}
+  group_read: {foreground: "#f1eff8"}
+  group_write: {foreground: "#efe4a1"}
+  group_execute: {foreground: "#6dfedf"}
+  other_read: {foreground: "#a0a0c5"}
+  other_write: {foreground: "#efe4a1"}
+  other_execute: {foreground: "#6dfedf"}
+  special_user_file: {foreground: "#7aa5ff"}
+  special_other: {foreground: "#a0a0c5"}
+  attribute: {foreground: "#a0a0c5"}
+
+size:
+  major: {foreground: "#a0a0c5"}
+  minor: {foreground: "#8eaee0"}
+  number_byte: {foreground: "#f1eff8"}
+  number_kilo: {foreground: "#f1eff8"}
+  number_mega: {foreground: "#2de0a7"}
+  number_giga: {foreground: "#7aa5ff"}
+  number_huge: {foreground: "#7aa5ff"}
+  unit_byte: {foreground: "#a0a0c5"}
+  unit_kilo: {foreground: "#2de0a7"}
+  unit_mega: {foreground: "#7aa5ff"}
+  unit_giga: {foreground: "#7aa5ff"}
+  unit_huge: {foreground: "#2de0a7"}
+
+users:
+  user_you: {foreground: "#f1eff8"}
+  user_root: {foreground: "#a0a0c5"}
+  user_other: {foreground: "#7aa5ff"}
+  group_yours: {foreground: "#f1eff8"}
+  group_other: {foreground: "#a0a0c5"}
+  group_root: {foreground: "#a0a0c5"}
+
+links:
+  normal: {foreground: "#8eaee0"}
+  multi_link_file: {foreground: "#2de0a7"}
+
+git:
+  new: {foreground: "#6dfedf"}
+  modified: {foreground: "#ae81ff"}
+  deleted: {foreground: "#a0a0c5"}
+  renamed: {foreground: "#6dfedf"}
+  typechange: {foreground: "#7aa5ff"}
+  ignored: {foreground: "#a0a0c5"}
+  conflicted: {foreground: "#a0a0c5"}
+
+git_repo:
+  branch_main: {foreground: "#f1eff8"}
+  branch_other: {foreground: "#7aa5ff"}
+  git_clean: {foreground: "#6dfedf"}
+  git_dirty: {foreground: "#a0a0c5"}
+
+security_context:
+  colon: {foreground: "#a0a0c5"}
+  user: {foreground: "#f1eff8"}
+  role: {foreground: "#7aa5ff"}
+  typ: {foreground: "#a0a0c5"}
+  range: {foreground: "#7aa5ff"}
+
+file_type:
+  image: {foreground: "#ae81ff"}
+  video: {foreground: "#a0a0c5"}
+  music: {foreground: "#6dfedf"}
+  lossless: {foreground: "#8eaee0"}
+  crypto: {foreground: "#a0a0c5"}
+  document: {foreground: "#f1eff8"}
+  compressed: {foreground: "#7aa5ff"}
+  temp: {foreground: "#a0a0c5"}
+  compiled: {foreground: "#2de0a7"}
+  build: {foreground: "#a0a0c5"}
+  source: {foreground: "#2de0a7"}
+
+punctuation: {foreground: "#a0a0c5"}
+date: {foreground: "#ae81ff"}
+inode: {foreground: "#a0a0c5"}
+blocks: {foreground: "#a0a0c5"}
+header: {foreground: "#f1eff8"}
+octal: {foreground: "#8eaee0"}
+flags: {foreground: "#7aa5ff"}
+
+symlink_path: {foreground: "#8eaee0"}
+control_char: {foreground: "#2de0a7"}
+broken_symlink: {foreground: "#a0a0c5"}
+broken_path_overlay: {foreground: "#a0a0c5"}

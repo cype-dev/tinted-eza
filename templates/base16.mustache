@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: {{ scheme-name }}
+# Scheme Author: {{ scheme-author }}
+# Scheme System: {{ scheme-system }}
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#{{base05-hex}}"}
+  directory: {foreground: "#{{base0D-hex}}"}
+  symlink: {foreground: "#{{base0C-hex}}"}
+  pipe: {foreground: "#{{base04-hex}}"}
+  block_device: {foreground: "#{{base0A-hex}}"}
+  char_device: {foreground: "#{{base0A-hex}}"}
+  socket: {foreground: "#{{base04-hex}}"}
+  special: {foreground: "#{{base0E-hex}}"}
+  executable: {foreground: "#{{base0B-hex}}"}
+  mount_point: {foreground: "#{{base0D-hex}}"}
+
+perms:
+  user_read: {foreground: "#{{base05-hex}}"}
+  user_write: {foreground: "#{{base09-hex}}"}
+  user_execute_file: {foreground: "#{{base0B-hex}}"}
+  user_execute_other: {foreground: "#{{base0B-hex}}"}
+  group_read: {foreground: "#{{base05-hex}}"}
+  group_write: {foreground: "#{{base09-hex}}"}
+  group_execute: {foreground: "#{{base0B-hex}}"}
+  other_read: {foreground: "#{{base04-hex}}"}
+  other_write: {foreground: "#{{base09-hex}}"}
+  other_execute: {foreground: "#{{base0B-hex}}"}
+  special_user_file: {foreground: "#{{base0E-hex}}"}
+  special_other: {foreground: "#{{base04-hex}}"}
+  attribute: {foreground: "#{{base04-hex}}"}
+
+size:
+  major: {foreground: "#{{base04-hex}}"}
+  minor: {foreground: "#{{base0C-hex}}"}
+  number_byte: {foreground: "#{{base05-hex}}"}
+  number_kilo: {foreground: "#{{base05-hex}}"}
+  number_mega: {foreground: "#{{base0D-hex}}"}
+  number_giga: {foreground: "#{{base0E-hex}}"}
+  number_huge: {foreground: "#{{base0E-hex}}"}
+  unit_byte: {foreground: "#{{base04-hex}}"}
+  unit_kilo: {foreground: "#{{base0D-hex}}"}
+  unit_mega: {foreground: "#{{base0E-hex}}"}
+  unit_giga: {foreground: "#{{base0E-hex}}"}
+  unit_huge: {foreground: "#{{base0D-hex}}"}
+
+users:
+  user_you: {foreground: "#{{base05-hex}}"}
+  user_root: {foreground: "#{{base08-hex}}"}
+  user_other: {foreground: "#{{base0E-hex}}"}
+  group_yours: {foreground: "#{{base05-hex}}"}
+  group_other: {foreground: "#{{base04-hex}}"}
+  group_root: {foreground: "#{{base08-hex}}"}
+
+links:
+  normal: {foreground: "#{{base0C-hex}}"}
+  multi_link_file: {foreground: "#{{base0D-hex}}"}
+
+git:
+  new: {foreground: "#{{base0B-hex}}"}
+  modified: {foreground: "#{{base0A-hex}}"}
+  deleted: {foreground: "#{{base08-hex}}"}
+  renamed: {foreground: "#{{base0B-hex}}"}
+  typechange: {foreground: "#{{base0E-hex}}"}
+  ignored: {foreground: "#{{base04-hex}}"}
+  conflicted: {foreground: "#{{base08-hex}}"}
+
+git_repo:
+  branch_main: {foreground: "#{{base05-hex}}"}
+  branch_other: {foreground: "#{{base0E-hex}}"}
+  git_clean: {foreground: "#{{base0B-hex}}"}
+  git_dirty: {foreground: "#{{base08-hex}}"}
+
+security_context:
+  colon: {foreground: "#{{base04-hex}}"}
+  user: {foreground: "#{{base05-hex}}"}
+  role: {foreground: "#{{base0E-hex}}"}
+  typ: {foreground: "#{{base04-hex}}"}
+  range: {foreground: "#{{base0E-hex}}"}
+
+file_type:
+  image: {foreground: "#{{base0A-hex}}"}
+  video: {foreground: "#{{base08-hex}}"}
+  music: {foreground: "#{{base0B-hex}}"}
+  lossless: {foreground: "#{{base0C-hex}}"}
+  crypto: {foreground: "#{{base04-hex}}"}
+  document: {foreground: "#{{base05-hex}}"}
+  compressed: {foreground: "#{{base0E-hex}}"}
+  temp: {foreground: "#{{base08-hex}}"}
+  compiled: {foreground: "#{{base0D-hex}}"}
+  build: {foreground: "#{{base04-hex}}"}
+  source: {foreground: "#{{base0D-hex}}"}
+
+punctuation: {foreground: "#{{base04-hex}}"}
+date: {foreground: "#{{base0A-hex}}"}
+inode: {foreground: "#{{base04-hex}}"}
+blocks: {foreground: "#{{base04-hex}}"}
+header: {foreground: "#{{base05-hex}}"}
+octal: {foreground: "#{{base0C-hex}}"}
+flags: {foreground: "#{{base0E-hex}}"}
+
+symlink_path: {foreground: "#{{base0C-hex}}"}
+control_char: {foreground: "#{{base0D-hex}}"}
+broken_symlink: {foreground: "#{{base08-hex}}"}
+broken_path_overlay: {foreground: "#{{base04-hex}}"}

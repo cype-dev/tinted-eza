@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: Darktooth
+# Scheme Author: Jason Milkins (https://github.com/jasonm23)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#a89984"}
+  directory: {foreground: "#0d6678"}
+  symlink: {foreground: "#8ba59b"}
+  pipe: {foreground: "#928374"}
+  block_device: {foreground: "#fac03b"}
+  char_device: {foreground: "#fac03b"}
+  socket: {foreground: "#928374"}
+  special: {foreground: "#8f4673"}
+  executable: {foreground: "#95c085"}
+  mount_point: {foreground: "#0d6678"}
+
+perms:
+  user_read: {foreground: "#a89984"}
+  user_write: {foreground: "#fe8625"}
+  user_execute_file: {foreground: "#95c085"}
+  user_execute_other: {foreground: "#95c085"}
+  group_read: {foreground: "#a89984"}
+  group_write: {foreground: "#fe8625"}
+  group_execute: {foreground: "#95c085"}
+  other_read: {foreground: "#928374"}
+  other_write: {foreground: "#fe8625"}
+  other_execute: {foreground: "#95c085"}
+  special_user_file: {foreground: "#8f4673"}
+  special_other: {foreground: "#928374"}
+  attribute: {foreground: "#928374"}
+
+size:
+  major: {foreground: "#928374"}
+  minor: {foreground: "#8ba59b"}
+  number_byte: {foreground: "#a89984"}
+  number_kilo: {foreground: "#a89984"}
+  number_mega: {foreground: "#0d6678"}
+  number_giga: {foreground: "#8f4673"}
+  number_huge: {foreground: "#8f4673"}
+  unit_byte: {foreground: "#928374"}
+  unit_kilo: {foreground: "#0d6678"}
+  unit_mega: {foreground: "#8f4673"}
+  unit_giga: {foreground: "#8f4673"}
+  unit_huge: {foreground: "#0d6678"}
+
+users:
+  user_you: {foreground: "#a89984"}
+  user_root: {foreground: "#fb543f"}
+  user_other: {foreground: "#8f4673"}
+  group_yours: {foreground: "#a89984"}
+  group_other: {foreground: "#928374"}
+  group_root: {foreground: "#fb543f"}
+
+links:
+  normal: {foreground: "#8ba59b"}
+  multi_link_file: {foreground: "#0d6678"}
+
+git:
+  new: {foreground: "#95c085"}
+  modified: {foreground: "#fac03b"}
+  deleted: {foreground: "#fb543f"}
+  renamed: {foreground: "#95c085"}
+  typechange: {foreground: "#8f4673"}
+  ignored: {foreground: "#928374"}
+  conflicted: {foreground: "#fb543f"}
+
+git_repo:
+  branch_main: {foreground: "#a89984"}
+  branch_other: {foreground: "#8f4673"}
+  git_clean: {foreground: "#95c085"}
+  git_dirty: {foreground: "#fb543f"}
+
+security_context:
+  colon: {foreground: "#928374"}
+  user: {foreground: "#a89984"}
+  role: {foreground: "#8f4673"}
+  typ: {foreground: "#928374"}
+  range: {foreground: "#8f4673"}
+
+file_type:
+  image: {foreground: "#fac03b"}
+  video: {foreground: "#fb543f"}
+  music: {foreground: "#95c085"}
+  lossless: {foreground: "#8ba59b"}
+  crypto: {foreground: "#928374"}
+  document: {foreground: "#a89984"}
+  compressed: {foreground: "#8f4673"}
+  temp: {foreground: "#fb543f"}
+  compiled: {foreground: "#0d6678"}
+  build: {foreground: "#928374"}
+  source: {foreground: "#0d6678"}
+
+punctuation: {foreground: "#928374"}
+date: {foreground: "#fac03b"}
+inode: {foreground: "#928374"}
+blocks: {foreground: "#928374"}
+header: {foreground: "#a89984"}
+octal: {foreground: "#8ba59b"}
+flags: {foreground: "#8f4673"}
+
+symlink_path: {foreground: "#8ba59b"}
+control_char: {foreground: "#0d6678"}
+broken_symlink: {foreground: "#fb543f"}
+broken_path_overlay: {foreground: "#928374"}

@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: Valua
+# Scheme Author: Nonetrix (https://github.com/nonetrix)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#98c1a3"}
+  directory: {foreground: "#4ed2d2"}
+  symlink: {foreground: "#76dbd2"}
+  pipe: {foreground: "#6d9877"}
+  block_device: {foreground: "#dfe754"}
+  char_device: {foreground: "#dfe754"}
+  socket: {foreground: "#6d9877"}
+  special: {foreground: "#a874e0"}
+  executable: {foreground: "#59d678"}
+  mount_point: {foreground: "#4ed2d2"}
+
+perms:
+  user_read: {foreground: "#98c1a3"}
+  user_write: {foreground: "#e6b466"}
+  user_execute_file: {foreground: "#59d678"}
+  user_execute_other: {foreground: "#59d678"}
+  group_read: {foreground: "#98c1a3"}
+  group_write: {foreground: "#e6b466"}
+  group_execute: {foreground: "#59d678"}
+  other_read: {foreground: "#6d9877"}
+  other_write: {foreground: "#e6b466"}
+  other_execute: {foreground: "#59d678"}
+  special_user_file: {foreground: "#a874e0"}
+  special_other: {foreground: "#6d9877"}
+  attribute: {foreground: "#6d9877"}
+
+size:
+  major: {foreground: "#6d9877"}
+  minor: {foreground: "#76dbd2"}
+  number_byte: {foreground: "#98c1a3"}
+  number_kilo: {foreground: "#98c1a3"}
+  number_mega: {foreground: "#4ed2d2"}
+  number_giga: {foreground: "#a874e0"}
+  number_huge: {foreground: "#a874e0"}
+  unit_byte: {foreground: "#6d9877"}
+  unit_kilo: {foreground: "#4ed2d2"}
+  unit_mega: {foreground: "#a874e0"}
+  unit_giga: {foreground: "#a874e0"}
+  unit_huge: {foreground: "#4ed2d2"}
+
+users:
+  user_you: {foreground: "#98c1a3"}
+  user_root: {foreground: "#d7586e"}
+  user_other: {foreground: "#a874e0"}
+  group_yours: {foreground: "#98c1a3"}
+  group_other: {foreground: "#6d9877"}
+  group_root: {foreground: "#d7586e"}
+
+links:
+  normal: {foreground: "#76dbd2"}
+  multi_link_file: {foreground: "#4ed2d2"}
+
+git:
+  new: {foreground: "#59d678"}
+  modified: {foreground: "#dfe754"}
+  deleted: {foreground: "#d7586e"}
+  renamed: {foreground: "#59d678"}
+  typechange: {foreground: "#a874e0"}
+  ignored: {foreground: "#6d9877"}
+  conflicted: {foreground: "#d7586e"}
+
+git_repo:
+  branch_main: {foreground: "#98c1a3"}
+  branch_other: {foreground: "#a874e0"}
+  git_clean: {foreground: "#59d678"}
+  git_dirty: {foreground: "#d7586e"}
+
+security_context:
+  colon: {foreground: "#6d9877"}
+  user: {foreground: "#98c1a3"}
+  role: {foreground: "#a874e0"}
+  typ: {foreground: "#6d9877"}
+  range: {foreground: "#a874e0"}
+
+file_type:
+  image: {foreground: "#dfe754"}
+  video: {foreground: "#d7586e"}
+  music: {foreground: "#59d678"}
+  lossless: {foreground: "#76dbd2"}
+  crypto: {foreground: "#6d9877"}
+  document: {foreground: "#98c1a3"}
+  compressed: {foreground: "#a874e0"}
+  temp: {foreground: "#d7586e"}
+  compiled: {foreground: "#4ed2d2"}
+  build: {foreground: "#6d9877"}
+  source: {foreground: "#4ed2d2"}
+
+punctuation: {foreground: "#6d9877"}
+date: {foreground: "#dfe754"}
+inode: {foreground: "#6d9877"}
+blocks: {foreground: "#6d9877"}
+header: {foreground: "#98c1a3"}
+octal: {foreground: "#76dbd2"}
+flags: {foreground: "#a874e0"}
+
+symlink_path: {foreground: "#76dbd2"}
+control_char: {foreground: "#4ed2d2"}
+broken_symlink: {foreground: "#d7586e"}
+broken_path_overlay: {foreground: "#6d9877"}

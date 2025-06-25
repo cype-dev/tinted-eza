@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: 3024
+# Scheme Author: Jan T. Sott (http://github.com/idleberg)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#a5a2a2"}
+  directory: {foreground: "#01a0e4"}
+  symlink: {foreground: "#b5e4f4"}
+  pipe: {foreground: "#807d7c"}
+  block_device: {foreground: "#fded02"}
+  char_device: {foreground: "#fded02"}
+  socket: {foreground: "#807d7c"}
+  special: {foreground: "#a16a94"}
+  executable: {foreground: "#01a252"}
+  mount_point: {foreground: "#01a0e4"}
+
+perms:
+  user_read: {foreground: "#a5a2a2"}
+  user_write: {foreground: "#e8bbd0"}
+  user_execute_file: {foreground: "#01a252"}
+  user_execute_other: {foreground: "#01a252"}
+  group_read: {foreground: "#a5a2a2"}
+  group_write: {foreground: "#e8bbd0"}
+  group_execute: {foreground: "#01a252"}
+  other_read: {foreground: "#807d7c"}
+  other_write: {foreground: "#e8bbd0"}
+  other_execute: {foreground: "#01a252"}
+  special_user_file: {foreground: "#a16a94"}
+  special_other: {foreground: "#807d7c"}
+  attribute: {foreground: "#807d7c"}
+
+size:
+  major: {foreground: "#807d7c"}
+  minor: {foreground: "#b5e4f4"}
+  number_byte: {foreground: "#a5a2a2"}
+  number_kilo: {foreground: "#a5a2a2"}
+  number_mega: {foreground: "#01a0e4"}
+  number_giga: {foreground: "#a16a94"}
+  number_huge: {foreground: "#a16a94"}
+  unit_byte: {foreground: "#807d7c"}
+  unit_kilo: {foreground: "#01a0e4"}
+  unit_mega: {foreground: "#a16a94"}
+  unit_giga: {foreground: "#a16a94"}
+  unit_huge: {foreground: "#01a0e4"}
+
+users:
+  user_you: {foreground: "#a5a2a2"}
+  user_root: {foreground: "#db2d20"}
+  user_other: {foreground: "#a16a94"}
+  group_yours: {foreground: "#a5a2a2"}
+  group_other: {foreground: "#807d7c"}
+  group_root: {foreground: "#db2d20"}
+
+links:
+  normal: {foreground: "#b5e4f4"}
+  multi_link_file: {foreground: "#01a0e4"}
+
+git:
+  new: {foreground: "#01a252"}
+  modified: {foreground: "#fded02"}
+  deleted: {foreground: "#db2d20"}
+  renamed: {foreground: "#01a252"}
+  typechange: {foreground: "#a16a94"}
+  ignored: {foreground: "#807d7c"}
+  conflicted: {foreground: "#db2d20"}
+
+git_repo:
+  branch_main: {foreground: "#a5a2a2"}
+  branch_other: {foreground: "#a16a94"}
+  git_clean: {foreground: "#01a252"}
+  git_dirty: {foreground: "#db2d20"}
+
+security_context:
+  colon: {foreground: "#807d7c"}
+  user: {foreground: "#a5a2a2"}
+  role: {foreground: "#a16a94"}
+  typ: {foreground: "#807d7c"}
+  range: {foreground: "#a16a94"}
+
+file_type:
+  image: {foreground: "#fded02"}
+  video: {foreground: "#db2d20"}
+  music: {foreground: "#01a252"}
+  lossless: {foreground: "#b5e4f4"}
+  crypto: {foreground: "#807d7c"}
+  document: {foreground: "#a5a2a2"}
+  compressed: {foreground: "#a16a94"}
+  temp: {foreground: "#db2d20"}
+  compiled: {foreground: "#01a0e4"}
+  build: {foreground: "#807d7c"}
+  source: {foreground: "#01a0e4"}
+
+punctuation: {foreground: "#807d7c"}
+date: {foreground: "#fded02"}
+inode: {foreground: "#807d7c"}
+blocks: {foreground: "#807d7c"}
+header: {foreground: "#a5a2a2"}
+octal: {foreground: "#b5e4f4"}
+flags: {foreground: "#a16a94"}
+
+symlink_path: {foreground: "#b5e4f4"}
+control_char: {foreground: "#01a0e4"}
+broken_symlink: {foreground: "#db2d20"}
+broken_path_overlay: {foreground: "#807d7c"}

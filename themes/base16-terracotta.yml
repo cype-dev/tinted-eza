@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: Terracotta
+# Scheme Author: Alexander Rossell Hayes (https://github.com/rossellhayes)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#473731"}
+  directory: {foreground: "#625574"}
+  symlink: {foreground: "#847f9e"}
+  pipe: {foreground: "#59453d"}
+  block_device: {foreground: "#ce943e"}
+  char_device: {foreground: "#ce943e"}
+  socket: {foreground: "#59453d"}
+  special: {foreground: "#8d5968"}
+  executable: {foreground: "#7a894a"}
+  mount_point: {foreground: "#625574"}
+
+perms:
+  user_read: {foreground: "#473731"}
+  user_write: {foreground: "#bd6942"}
+  user_execute_file: {foreground: "#7a894a"}
+  user_execute_other: {foreground: "#7a894a"}
+  group_read: {foreground: "#473731"}
+  group_write: {foreground: "#bd6942"}
+  group_execute: {foreground: "#7a894a"}
+  other_read: {foreground: "#59453d"}
+  other_write: {foreground: "#bd6942"}
+  other_execute: {foreground: "#7a894a"}
+  special_user_file: {foreground: "#8d5968"}
+  special_other: {foreground: "#59453d"}
+  attribute: {foreground: "#59453d"}
+
+size:
+  major: {foreground: "#59453d"}
+  minor: {foreground: "#847f9e"}
+  number_byte: {foreground: "#473731"}
+  number_kilo: {foreground: "#473731"}
+  number_mega: {foreground: "#625574"}
+  number_giga: {foreground: "#8d5968"}
+  number_huge: {foreground: "#8d5968"}
+  unit_byte: {foreground: "#59453d"}
+  unit_kilo: {foreground: "#625574"}
+  unit_mega: {foreground: "#8d5968"}
+  unit_giga: {foreground: "#8d5968"}
+  unit_huge: {foreground: "#625574"}
+
+users:
+  user_you: {foreground: "#473731"}
+  user_root: {foreground: "#a75045"}
+  user_other: {foreground: "#8d5968"}
+  group_yours: {foreground: "#473731"}
+  group_other: {foreground: "#59453d"}
+  group_root: {foreground: "#a75045"}
+
+links:
+  normal: {foreground: "#847f9e"}
+  multi_link_file: {foreground: "#625574"}
+
+git:
+  new: {foreground: "#7a894a"}
+  modified: {foreground: "#ce943e"}
+  deleted: {foreground: "#a75045"}
+  renamed: {foreground: "#7a894a"}
+  typechange: {foreground: "#8d5968"}
+  ignored: {foreground: "#59453d"}
+  conflicted: {foreground: "#a75045"}
+
+git_repo:
+  branch_main: {foreground: "#473731"}
+  branch_other: {foreground: "#8d5968"}
+  git_clean: {foreground: "#7a894a"}
+  git_dirty: {foreground: "#a75045"}
+
+security_context:
+  colon: {foreground: "#59453d"}
+  user: {foreground: "#473731"}
+  role: {foreground: "#8d5968"}
+  typ: {foreground: "#59453d"}
+  range: {foreground: "#8d5968"}
+
+file_type:
+  image: {foreground: "#ce943e"}
+  video: {foreground: "#a75045"}
+  music: {foreground: "#7a894a"}
+  lossless: {foreground: "#847f9e"}
+  crypto: {foreground: "#59453d"}
+  document: {foreground: "#473731"}
+  compressed: {foreground: "#8d5968"}
+  temp: {foreground: "#a75045"}
+  compiled: {foreground: "#625574"}
+  build: {foreground: "#59453d"}
+  source: {foreground: "#625574"}
+
+punctuation: {foreground: "#59453d"}
+date: {foreground: "#ce943e"}
+inode: {foreground: "#59453d"}
+blocks: {foreground: "#59453d"}
+header: {foreground: "#473731"}
+octal: {foreground: "#847f9e"}
+flags: {foreground: "#8d5968"}
+
+symlink_path: {foreground: "#847f9e"}
+control_char: {foreground: "#625574"}
+broken_symlink: {foreground: "#a75045"}
+broken_path_overlay: {foreground: "#59453d"}

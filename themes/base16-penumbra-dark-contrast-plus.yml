@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: Penumbra Dark Contrast Plus
+# Scheme Author: Zachary Weiss (https://github.com/zacharyweiss)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#cecece"}
+  directory: {foreground: "#61a3e6"}
+  symlink: {foreground: "#00b3c2"}
+  pipe: {foreground: "#9e9e9e"}
+  block_device: {foreground: "#9ca748"}
+  char_device: {foreground: "#9ca748"}
+  socket: {foreground: "#9e9e9e"}
+  special: {foreground: "#a48fe1"}
+  executable: {foreground: "#50b584"}
+  mount_point: {foreground: "#61a3e6"}
+
+perms:
+  user_read: {foreground: "#cecece"}
+  user_write: {foreground: "#ce9042"}
+  user_execute_file: {foreground: "#50b584"}
+  user_execute_other: {foreground: "#50b584"}
+  group_read: {foreground: "#cecece"}
+  group_write: {foreground: "#ce9042"}
+  group_execute: {foreground: "#50b584"}
+  other_read: {foreground: "#9e9e9e"}
+  other_write: {foreground: "#ce9042"}
+  other_execute: {foreground: "#50b584"}
+  special_user_file: {foreground: "#a48fe1"}
+  special_other: {foreground: "#9e9e9e"}
+  attribute: {foreground: "#9e9e9e"}
+
+size:
+  major: {foreground: "#9e9e9e"}
+  minor: {foreground: "#00b3c2"}
+  number_byte: {foreground: "#cecece"}
+  number_kilo: {foreground: "#cecece"}
+  number_mega: {foreground: "#61a3e6"}
+  number_giga: {foreground: "#a48fe1"}
+  number_huge: {foreground: "#a48fe1"}
+  unit_byte: {foreground: "#9e9e9e"}
+  unit_kilo: {foreground: "#61a3e6"}
+  unit_mega: {foreground: "#a48fe1"}
+  unit_giga: {foreground: "#a48fe1"}
+  unit_huge: {foreground: "#61a3e6"}
+
+users:
+  user_you: {foreground: "#cecece"}
+  user_root: {foreground: "#df7f78"}
+  user_other: {foreground: "#a48fe1"}
+  group_yours: {foreground: "#cecece"}
+  group_other: {foreground: "#9e9e9e"}
+  group_root: {foreground: "#df7f78"}
+
+links:
+  normal: {foreground: "#00b3c2"}
+  multi_link_file: {foreground: "#61a3e6"}
+
+git:
+  new: {foreground: "#50b584"}
+  modified: {foreground: "#9ca748"}
+  deleted: {foreground: "#df7f78"}
+  renamed: {foreground: "#50b584"}
+  typechange: {foreground: "#a48fe1"}
+  ignored: {foreground: "#9e9e9e"}
+  conflicted: {foreground: "#df7f78"}
+
+git_repo:
+  branch_main: {foreground: "#cecece"}
+  branch_other: {foreground: "#a48fe1"}
+  git_clean: {foreground: "#50b584"}
+  git_dirty: {foreground: "#df7f78"}
+
+security_context:
+  colon: {foreground: "#9e9e9e"}
+  user: {foreground: "#cecece"}
+  role: {foreground: "#a48fe1"}
+  typ: {foreground: "#9e9e9e"}
+  range: {foreground: "#a48fe1"}
+
+file_type:
+  image: {foreground: "#9ca748"}
+  video: {foreground: "#df7f78"}
+  music: {foreground: "#50b584"}
+  lossless: {foreground: "#00b3c2"}
+  crypto: {foreground: "#9e9e9e"}
+  document: {foreground: "#cecece"}
+  compressed: {foreground: "#a48fe1"}
+  temp: {foreground: "#df7f78"}
+  compiled: {foreground: "#61a3e6"}
+  build: {foreground: "#9e9e9e"}
+  source: {foreground: "#61a3e6"}
+
+punctuation: {foreground: "#9e9e9e"}
+date: {foreground: "#9ca748"}
+inode: {foreground: "#9e9e9e"}
+blocks: {foreground: "#9e9e9e"}
+header: {foreground: "#cecece"}
+octal: {foreground: "#00b3c2"}
+flags: {foreground: "#a48fe1"}
+
+symlink_path: {foreground: "#00b3c2"}
+control_char: {foreground: "#61a3e6"}
+broken_symlink: {foreground: "#df7f78"}
+broken_path_overlay: {foreground: "#9e9e9e"}

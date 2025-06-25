@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: Embers Light
+# Scheme Author: Jannik Siebert (https://github.com/janniks)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#323b43"}
+  directory: {foreground: "#82576d"}
+  symlink: {foreground: "#826d57"}
+  pipe: {foreground: "#47505a"}
+  block_device: {foreground: "#57826d"}
+  char_device: {foreground: "#57826d"}
+  socket: {foreground: "#47505a"}
+  special: {foreground: "#6d5782"}
+  executable: {foreground: "#6d8257"}
+  mount_point: {foreground: "#82576d"}
+
+perms:
+  user_read: {foreground: "#323b43"}
+  user_write: {foreground: "#578282"}
+  user_execute_file: {foreground: "#6d8257"}
+  user_execute_other: {foreground: "#6d8257"}
+  group_read: {foreground: "#323b43"}
+  group_write: {foreground: "#578282"}
+  group_execute: {foreground: "#6d8257"}
+  other_read: {foreground: "#47505a"}
+  other_write: {foreground: "#578282"}
+  other_execute: {foreground: "#6d8257"}
+  special_user_file: {foreground: "#6d5782"}
+  special_other: {foreground: "#47505a"}
+  attribute: {foreground: "#47505a"}
+
+size:
+  major: {foreground: "#47505a"}
+  minor: {foreground: "#826d57"}
+  number_byte: {foreground: "#323b43"}
+  number_kilo: {foreground: "#323b43"}
+  number_mega: {foreground: "#82576d"}
+  number_giga: {foreground: "#6d5782"}
+  number_huge: {foreground: "#6d5782"}
+  unit_byte: {foreground: "#47505a"}
+  unit_kilo: {foreground: "#82576d"}
+  unit_mega: {foreground: "#6d5782"}
+  unit_giga: {foreground: "#6d5782"}
+  unit_huge: {foreground: "#82576d"}
+
+users:
+  user_you: {foreground: "#323b43"}
+  user_root: {foreground: "#576d82"}
+  user_other: {foreground: "#6d5782"}
+  group_yours: {foreground: "#323b43"}
+  group_other: {foreground: "#47505a"}
+  group_root: {foreground: "#576d82"}
+
+links:
+  normal: {foreground: "#826d57"}
+  multi_link_file: {foreground: "#82576d"}
+
+git:
+  new: {foreground: "#6d8257"}
+  modified: {foreground: "#57826d"}
+  deleted: {foreground: "#576d82"}
+  renamed: {foreground: "#6d8257"}
+  typechange: {foreground: "#6d5782"}
+  ignored: {foreground: "#47505a"}
+  conflicted: {foreground: "#576d82"}
+
+git_repo:
+  branch_main: {foreground: "#323b43"}
+  branch_other: {foreground: "#6d5782"}
+  git_clean: {foreground: "#6d8257"}
+  git_dirty: {foreground: "#576d82"}
+
+security_context:
+  colon: {foreground: "#47505a"}
+  user: {foreground: "#323b43"}
+  role: {foreground: "#6d5782"}
+  typ: {foreground: "#47505a"}
+  range: {foreground: "#6d5782"}
+
+file_type:
+  image: {foreground: "#57826d"}
+  video: {foreground: "#576d82"}
+  music: {foreground: "#6d8257"}
+  lossless: {foreground: "#826d57"}
+  crypto: {foreground: "#47505a"}
+  document: {foreground: "#323b43"}
+  compressed: {foreground: "#6d5782"}
+  temp: {foreground: "#576d82"}
+  compiled: {foreground: "#82576d"}
+  build: {foreground: "#47505a"}
+  source: {foreground: "#82576d"}
+
+punctuation: {foreground: "#47505a"}
+date: {foreground: "#57826d"}
+inode: {foreground: "#47505a"}
+blocks: {foreground: "#47505a"}
+header: {foreground: "#323b43"}
+octal: {foreground: "#826d57"}
+flags: {foreground: "#6d5782"}
+
+symlink_path: {foreground: "#826d57"}
+control_char: {foreground: "#82576d"}
+broken_symlink: {foreground: "#576d82"}
+broken_path_overlay: {foreground: "#47505a"}

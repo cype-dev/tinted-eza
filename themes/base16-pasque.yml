@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: Pasque
+# Scheme Author: Gabriel Fontes (https://github.com/Misterio77)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#dedcdf"}
+  directory: {foreground: "#8e7dc6"}
+  symlink: {foreground: "#7263aa"}
+  pipe: {foreground: "#bebcbf"}
+  block_device: {foreground: "#804ead"}
+  char_device: {foreground: "#804ead"}
+  socket: {foreground: "#bebcbf"}
+  special: {foreground: "#953b9d"}
+  executable: {foreground: "#c6914b"}
+  mount_point: {foreground: "#8e7dc6"}
+
+perms:
+  user_read: {foreground: "#dedcdf"}
+  user_write: {foreground: "#918889"}
+  user_execute_file: {foreground: "#c6914b"}
+  user_execute_other: {foreground: "#c6914b"}
+  group_read: {foreground: "#dedcdf"}
+  group_write: {foreground: "#918889"}
+  group_execute: {foreground: "#c6914b"}
+  other_read: {foreground: "#bebcbf"}
+  other_write: {foreground: "#918889"}
+  other_execute: {foreground: "#c6914b"}
+  special_user_file: {foreground: "#953b9d"}
+  special_other: {foreground: "#bebcbf"}
+  attribute: {foreground: "#bebcbf"}
+
+size:
+  major: {foreground: "#bebcbf"}
+  minor: {foreground: "#7263aa"}
+  number_byte: {foreground: "#dedcdf"}
+  number_kilo: {foreground: "#dedcdf"}
+  number_mega: {foreground: "#8e7dc6"}
+  number_giga: {foreground: "#953b9d"}
+  number_huge: {foreground: "#953b9d"}
+  unit_byte: {foreground: "#bebcbf"}
+  unit_kilo: {foreground: "#8e7dc6"}
+  unit_mega: {foreground: "#953b9d"}
+  unit_giga: {foreground: "#953b9d"}
+  unit_huge: {foreground: "#8e7dc6"}
+
+users:
+  user_you: {foreground: "#dedcdf"}
+  user_root: {foreground: "#a92258"}
+  user_other: {foreground: "#953b9d"}
+  group_yours: {foreground: "#dedcdf"}
+  group_other: {foreground: "#bebcbf"}
+  group_root: {foreground: "#a92258"}
+
+links:
+  normal: {foreground: "#7263aa"}
+  multi_link_file: {foreground: "#8e7dc6"}
+
+git:
+  new: {foreground: "#c6914b"}
+  modified: {foreground: "#804ead"}
+  deleted: {foreground: "#a92258"}
+  renamed: {foreground: "#c6914b"}
+  typechange: {foreground: "#953b9d"}
+  ignored: {foreground: "#bebcbf"}
+  conflicted: {foreground: "#a92258"}
+
+git_repo:
+  branch_main: {foreground: "#dedcdf"}
+  branch_other: {foreground: "#953b9d"}
+  git_clean: {foreground: "#c6914b"}
+  git_dirty: {foreground: "#a92258"}
+
+security_context:
+  colon: {foreground: "#bebcbf"}
+  user: {foreground: "#dedcdf"}
+  role: {foreground: "#953b9d"}
+  typ: {foreground: "#bebcbf"}
+  range: {foreground: "#953b9d"}
+
+file_type:
+  image: {foreground: "#804ead"}
+  video: {foreground: "#a92258"}
+  music: {foreground: "#c6914b"}
+  lossless: {foreground: "#7263aa"}
+  crypto: {foreground: "#bebcbf"}
+  document: {foreground: "#dedcdf"}
+  compressed: {foreground: "#953b9d"}
+  temp: {foreground: "#a92258"}
+  compiled: {foreground: "#8e7dc6"}
+  build: {foreground: "#bebcbf"}
+  source: {foreground: "#8e7dc6"}
+
+punctuation: {foreground: "#bebcbf"}
+date: {foreground: "#804ead"}
+inode: {foreground: "#bebcbf"}
+blocks: {foreground: "#bebcbf"}
+header: {foreground: "#dedcdf"}
+octal: {foreground: "#7263aa"}
+flags: {foreground: "#953b9d"}
+
+symlink_path: {foreground: "#7263aa"}
+control_char: {foreground: "#8e7dc6"}
+broken_symlink: {foreground: "#a92258"}
+broken_path_overlay: {foreground: "#bebcbf"}

@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: UwUnicorn
+# Scheme Author: Fernando Marques (https://github.com/RakkiUwU) and Gabriel Fontes (https://github.com/Misterio77)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#eed5d9"}
+  directory: {foreground: "#6a9eb5"}
+  symlink: {foreground: "#9c5fce"}
+  pipe: {foreground: "#7e5f83"}
+  block_device: {foreground: "#a84a73"}
+  char_device: {foreground: "#a84a73"}
+  socket: {foreground: "#7e5f83"}
+  special: {foreground: "#78a38f"}
+  executable: {foreground: "#c965bf"}
+  mount_point: {foreground: "#6a9eb5"}
+
+perms:
+  user_read: {foreground: "#eed5d9"}
+  user_write: {foreground: "#de5b44"}
+  user_execute_file: {foreground: "#c965bf"}
+  user_execute_other: {foreground: "#c965bf"}
+  group_read: {foreground: "#eed5d9"}
+  group_write: {foreground: "#de5b44"}
+  group_execute: {foreground: "#c965bf"}
+  other_read: {foreground: "#7e5f83"}
+  other_write: {foreground: "#de5b44"}
+  other_execute: {foreground: "#c965bf"}
+  special_user_file: {foreground: "#78a38f"}
+  special_other: {foreground: "#7e5f83"}
+  attribute: {foreground: "#7e5f83"}
+
+size:
+  major: {foreground: "#7e5f83"}
+  minor: {foreground: "#9c5fce"}
+  number_byte: {foreground: "#eed5d9"}
+  number_kilo: {foreground: "#eed5d9"}
+  number_mega: {foreground: "#6a9eb5"}
+  number_giga: {foreground: "#78a38f"}
+  number_huge: {foreground: "#78a38f"}
+  unit_byte: {foreground: "#7e5f83"}
+  unit_kilo: {foreground: "#6a9eb5"}
+  unit_mega: {foreground: "#78a38f"}
+  unit_giga: {foreground: "#78a38f"}
+  unit_huge: {foreground: "#6a9eb5"}
+
+users:
+  user_you: {foreground: "#eed5d9"}
+  user_root: {foreground: "#877bb6"}
+  user_other: {foreground: "#78a38f"}
+  group_yours: {foreground: "#eed5d9"}
+  group_other: {foreground: "#7e5f83"}
+  group_root: {foreground: "#877bb6"}
+
+links:
+  normal: {foreground: "#9c5fce"}
+  multi_link_file: {foreground: "#6a9eb5"}
+
+git:
+  new: {foreground: "#c965bf"}
+  modified: {foreground: "#a84a73"}
+  deleted: {foreground: "#877bb6"}
+  renamed: {foreground: "#c965bf"}
+  typechange: {foreground: "#78a38f"}
+  ignored: {foreground: "#7e5f83"}
+  conflicted: {foreground: "#877bb6"}
+
+git_repo:
+  branch_main: {foreground: "#eed5d9"}
+  branch_other: {foreground: "#78a38f"}
+  git_clean: {foreground: "#c965bf"}
+  git_dirty: {foreground: "#877bb6"}
+
+security_context:
+  colon: {foreground: "#7e5f83"}
+  user: {foreground: "#eed5d9"}
+  role: {foreground: "#78a38f"}
+  typ: {foreground: "#7e5f83"}
+  range: {foreground: "#78a38f"}
+
+file_type:
+  image: {foreground: "#a84a73"}
+  video: {foreground: "#877bb6"}
+  music: {foreground: "#c965bf"}
+  lossless: {foreground: "#9c5fce"}
+  crypto: {foreground: "#7e5f83"}
+  document: {foreground: "#eed5d9"}
+  compressed: {foreground: "#78a38f"}
+  temp: {foreground: "#877bb6"}
+  compiled: {foreground: "#6a9eb5"}
+  build: {foreground: "#7e5f83"}
+  source: {foreground: "#6a9eb5"}
+
+punctuation: {foreground: "#7e5f83"}
+date: {foreground: "#a84a73"}
+inode: {foreground: "#7e5f83"}
+blocks: {foreground: "#7e5f83"}
+header: {foreground: "#eed5d9"}
+octal: {foreground: "#9c5fce"}
+flags: {foreground: "#78a38f"}
+
+symlink_path: {foreground: "#9c5fce"}
+control_char: {foreground: "#6a9eb5"}
+broken_symlink: {foreground: "#877bb6"}
+broken_path_overlay: {foreground: "#7e5f83"}

@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: Kanagawa Dragon
+# Scheme Author: Tommaso Laurenzi (https://github.com/rebelot)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#c5c9c5"}
+  directory: {foreground: "#8ba4b0"}
+  symlink: {foreground: "#8ea4a2"}
+  pipe: {foreground: "#a6a69c"}
+  block_device: {foreground: "#c4b28a"}
+  char_device: {foreground: "#c4b28a"}
+  socket: {foreground: "#a6a69c"}
+  special: {foreground: "#8992a7"}
+  executable: {foreground: "#87a987"}
+  mount_point: {foreground: "#8ba4b0"}
+
+perms:
+  user_read: {foreground: "#c5c9c5"}
+  user_write: {foreground: "#b98d7b"}
+  user_execute_file: {foreground: "#87a987"}
+  user_execute_other: {foreground: "#87a987"}
+  group_read: {foreground: "#c5c9c5"}
+  group_write: {foreground: "#b98d7b"}
+  group_execute: {foreground: "#87a987"}
+  other_read: {foreground: "#a6a69c"}
+  other_write: {foreground: "#b98d7b"}
+  other_execute: {foreground: "#87a987"}
+  special_user_file: {foreground: "#8992a7"}
+  special_other: {foreground: "#a6a69c"}
+  attribute: {foreground: "#a6a69c"}
+
+size:
+  major: {foreground: "#a6a69c"}
+  minor: {foreground: "#8ea4a2"}
+  number_byte: {foreground: "#c5c9c5"}
+  number_kilo: {foreground: "#c5c9c5"}
+  number_mega: {foreground: "#8ba4b0"}
+  number_giga: {foreground: "#8992a7"}
+  number_huge: {foreground: "#8992a7"}
+  unit_byte: {foreground: "#a6a69c"}
+  unit_kilo: {foreground: "#8ba4b0"}
+  unit_mega: {foreground: "#8992a7"}
+  unit_giga: {foreground: "#8992a7"}
+  unit_huge: {foreground: "#8ba4b0"}
+
+users:
+  user_you: {foreground: "#c5c9c5"}
+  user_root: {foreground: "#c4746e"}
+  user_other: {foreground: "#8992a7"}
+  group_yours: {foreground: "#c5c9c5"}
+  group_other: {foreground: "#a6a69c"}
+  group_root: {foreground: "#c4746e"}
+
+links:
+  normal: {foreground: "#8ea4a2"}
+  multi_link_file: {foreground: "#8ba4b0"}
+
+git:
+  new: {foreground: "#87a987"}
+  modified: {foreground: "#c4b28a"}
+  deleted: {foreground: "#c4746e"}
+  renamed: {foreground: "#87a987"}
+  typechange: {foreground: "#8992a7"}
+  ignored: {foreground: "#a6a69c"}
+  conflicted: {foreground: "#c4746e"}
+
+git_repo:
+  branch_main: {foreground: "#c5c9c5"}
+  branch_other: {foreground: "#8992a7"}
+  git_clean: {foreground: "#87a987"}
+  git_dirty: {foreground: "#c4746e"}
+
+security_context:
+  colon: {foreground: "#a6a69c"}
+  user: {foreground: "#c5c9c5"}
+  role: {foreground: "#8992a7"}
+  typ: {foreground: "#a6a69c"}
+  range: {foreground: "#8992a7"}
+
+file_type:
+  image: {foreground: "#c4b28a"}
+  video: {foreground: "#c4746e"}
+  music: {foreground: "#87a987"}
+  lossless: {foreground: "#8ea4a2"}
+  crypto: {foreground: "#a6a69c"}
+  document: {foreground: "#c5c9c5"}
+  compressed: {foreground: "#8992a7"}
+  temp: {foreground: "#c4746e"}
+  compiled: {foreground: "#8ba4b0"}
+  build: {foreground: "#a6a69c"}
+  source: {foreground: "#8ba4b0"}
+
+punctuation: {foreground: "#a6a69c"}
+date: {foreground: "#c4b28a"}
+inode: {foreground: "#a6a69c"}
+blocks: {foreground: "#a6a69c"}
+header: {foreground: "#c5c9c5"}
+octal: {foreground: "#8ea4a2"}
+flags: {foreground: "#8992a7"}
+
+symlink_path: {foreground: "#8ea4a2"}
+control_char: {foreground: "#8ba4b0"}
+broken_symlink: {foreground: "#c4746e"}
+broken_path_overlay: {foreground: "#a6a69c"}

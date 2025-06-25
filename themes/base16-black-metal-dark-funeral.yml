@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: Black Metal (Dark Funeral)
+# Scheme Author: metalelf0 (https://github.com/metalelf0)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#c1c1c1"}
+  directory: {foreground: "#888888"}
+  symlink: {foreground: "#aaaaaa"}
+  pipe: {foreground: "#999999"}
+  block_device: {foreground: "#5f81a5"}
+  char_device: {foreground: "#5f81a5"}
+  socket: {foreground: "#999999"}
+  special: {foreground: "#999999"}
+  executable: {foreground: "#d0dfee"}
+  mount_point: {foreground: "#888888"}
+
+perms:
+  user_read: {foreground: "#c1c1c1"}
+  user_write: {foreground: "#aaaaaa"}
+  user_execute_file: {foreground: "#d0dfee"}
+  user_execute_other: {foreground: "#d0dfee"}
+  group_read: {foreground: "#c1c1c1"}
+  group_write: {foreground: "#aaaaaa"}
+  group_execute: {foreground: "#d0dfee"}
+  other_read: {foreground: "#999999"}
+  other_write: {foreground: "#aaaaaa"}
+  other_execute: {foreground: "#d0dfee"}
+  special_user_file: {foreground: "#999999"}
+  special_other: {foreground: "#999999"}
+  attribute: {foreground: "#999999"}
+
+size:
+  major: {foreground: "#999999"}
+  minor: {foreground: "#aaaaaa"}
+  number_byte: {foreground: "#c1c1c1"}
+  number_kilo: {foreground: "#c1c1c1"}
+  number_mega: {foreground: "#888888"}
+  number_giga: {foreground: "#999999"}
+  number_huge: {foreground: "#999999"}
+  unit_byte: {foreground: "#999999"}
+  unit_kilo: {foreground: "#888888"}
+  unit_mega: {foreground: "#999999"}
+  unit_giga: {foreground: "#999999"}
+  unit_huge: {foreground: "#888888"}
+
+users:
+  user_you: {foreground: "#c1c1c1"}
+  user_root: {foreground: "#5f8787"}
+  user_other: {foreground: "#999999"}
+  group_yours: {foreground: "#c1c1c1"}
+  group_other: {foreground: "#999999"}
+  group_root: {foreground: "#5f8787"}
+
+links:
+  normal: {foreground: "#aaaaaa"}
+  multi_link_file: {foreground: "#888888"}
+
+git:
+  new: {foreground: "#d0dfee"}
+  modified: {foreground: "#5f81a5"}
+  deleted: {foreground: "#5f8787"}
+  renamed: {foreground: "#d0dfee"}
+  typechange: {foreground: "#999999"}
+  ignored: {foreground: "#999999"}
+  conflicted: {foreground: "#5f8787"}
+
+git_repo:
+  branch_main: {foreground: "#c1c1c1"}
+  branch_other: {foreground: "#999999"}
+  git_clean: {foreground: "#d0dfee"}
+  git_dirty: {foreground: "#5f8787"}
+
+security_context:
+  colon: {foreground: "#999999"}
+  user: {foreground: "#c1c1c1"}
+  role: {foreground: "#999999"}
+  typ: {foreground: "#999999"}
+  range: {foreground: "#999999"}
+
+file_type:
+  image: {foreground: "#5f81a5"}
+  video: {foreground: "#5f8787"}
+  music: {foreground: "#d0dfee"}
+  lossless: {foreground: "#aaaaaa"}
+  crypto: {foreground: "#999999"}
+  document: {foreground: "#c1c1c1"}
+  compressed: {foreground: "#999999"}
+  temp: {foreground: "#5f8787"}
+  compiled: {foreground: "#888888"}
+  build: {foreground: "#999999"}
+  source: {foreground: "#888888"}
+
+punctuation: {foreground: "#999999"}
+date: {foreground: "#5f81a5"}
+inode: {foreground: "#999999"}
+blocks: {foreground: "#999999"}
+header: {foreground: "#c1c1c1"}
+octal: {foreground: "#aaaaaa"}
+flags: {foreground: "#999999"}
+
+symlink_path: {foreground: "#aaaaaa"}
+control_char: {foreground: "#888888"}
+broken_symlink: {foreground: "#5f8787"}
+broken_path_overlay: {foreground: "#999999"}

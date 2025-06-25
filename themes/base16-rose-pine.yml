@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: Rosé Pine
+# Scheme Author: Emilia Dunfelt &lt;edun@dunfelt.se&gt;
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#e0def4"}
+  directory: {foreground: "#c4a7e7"}
+  symlink: {foreground: "#9ccfd8"}
+  pipe: {foreground: "#908caa"}
+  block_device: {foreground: "#ebbcba"}
+  char_device: {foreground: "#ebbcba"}
+  socket: {foreground: "#908caa"}
+  special: {foreground: "#f6c177"}
+  executable: {foreground: "#31748f"}
+  mount_point: {foreground: "#c4a7e7"}
+
+perms:
+  user_read: {foreground: "#e0def4"}
+  user_write: {foreground: "#f6c177"}
+  user_execute_file: {foreground: "#31748f"}
+  user_execute_other: {foreground: "#31748f"}
+  group_read: {foreground: "#e0def4"}
+  group_write: {foreground: "#f6c177"}
+  group_execute: {foreground: "#31748f"}
+  other_read: {foreground: "#908caa"}
+  other_write: {foreground: "#f6c177"}
+  other_execute: {foreground: "#31748f"}
+  special_user_file: {foreground: "#f6c177"}
+  special_other: {foreground: "#908caa"}
+  attribute: {foreground: "#908caa"}
+
+size:
+  major: {foreground: "#908caa"}
+  minor: {foreground: "#9ccfd8"}
+  number_byte: {foreground: "#e0def4"}
+  number_kilo: {foreground: "#e0def4"}
+  number_mega: {foreground: "#c4a7e7"}
+  number_giga: {foreground: "#f6c177"}
+  number_huge: {foreground: "#f6c177"}
+  unit_byte: {foreground: "#908caa"}
+  unit_kilo: {foreground: "#c4a7e7"}
+  unit_mega: {foreground: "#f6c177"}
+  unit_giga: {foreground: "#f6c177"}
+  unit_huge: {foreground: "#c4a7e7"}
+
+users:
+  user_you: {foreground: "#e0def4"}
+  user_root: {foreground: "#eb6f92"}
+  user_other: {foreground: "#f6c177"}
+  group_yours: {foreground: "#e0def4"}
+  group_other: {foreground: "#908caa"}
+  group_root: {foreground: "#eb6f92"}
+
+links:
+  normal: {foreground: "#9ccfd8"}
+  multi_link_file: {foreground: "#c4a7e7"}
+
+git:
+  new: {foreground: "#31748f"}
+  modified: {foreground: "#ebbcba"}
+  deleted: {foreground: "#eb6f92"}
+  renamed: {foreground: "#31748f"}
+  typechange: {foreground: "#f6c177"}
+  ignored: {foreground: "#908caa"}
+  conflicted: {foreground: "#eb6f92"}
+
+git_repo:
+  branch_main: {foreground: "#e0def4"}
+  branch_other: {foreground: "#f6c177"}
+  git_clean: {foreground: "#31748f"}
+  git_dirty: {foreground: "#eb6f92"}
+
+security_context:
+  colon: {foreground: "#908caa"}
+  user: {foreground: "#e0def4"}
+  role: {foreground: "#f6c177"}
+  typ: {foreground: "#908caa"}
+  range: {foreground: "#f6c177"}
+
+file_type:
+  image: {foreground: "#ebbcba"}
+  video: {foreground: "#eb6f92"}
+  music: {foreground: "#31748f"}
+  lossless: {foreground: "#9ccfd8"}
+  crypto: {foreground: "#908caa"}
+  document: {foreground: "#e0def4"}
+  compressed: {foreground: "#f6c177"}
+  temp: {foreground: "#eb6f92"}
+  compiled: {foreground: "#c4a7e7"}
+  build: {foreground: "#908caa"}
+  source: {foreground: "#c4a7e7"}
+
+punctuation: {foreground: "#908caa"}
+date: {foreground: "#ebbcba"}
+inode: {foreground: "#908caa"}
+blocks: {foreground: "#908caa"}
+header: {foreground: "#e0def4"}
+octal: {foreground: "#9ccfd8"}
+flags: {foreground: "#f6c177"}
+
+symlink_path: {foreground: "#9ccfd8"}
+control_char: {foreground: "#c4a7e7"}
+broken_symlink: {foreground: "#eb6f92"}
+broken_path_overlay: {foreground: "#908caa"}

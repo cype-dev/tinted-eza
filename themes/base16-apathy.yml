@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: Apathy
+# Scheme Author: Jannik Siebert (https://github.com/janniks)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#81b5ac"}
+  directory: {foreground: "#96883e"}
+  symlink: {foreground: "#963e4c"}
+  pipe: {foreground: "#5f9c92"}
+  block_device: {foreground: "#3e4c96"}
+  char_device: {foreground: "#3e4c96"}
+  socket: {foreground: "#5f9c92"}
+  special: {foreground: "#4c963e"}
+  executable: {foreground: "#883e96"}
+  mount_point: {foreground: "#96883e"}
+
+perms:
+  user_read: {foreground: "#81b5ac"}
+  user_write: {foreground: "#3e7996"}
+  user_execute_file: {foreground: "#883e96"}
+  user_execute_other: {foreground: "#883e96"}
+  group_read: {foreground: "#81b5ac"}
+  group_write: {foreground: "#3e7996"}
+  group_execute: {foreground: "#883e96"}
+  other_read: {foreground: "#5f9c92"}
+  other_write: {foreground: "#3e7996"}
+  other_execute: {foreground: "#883e96"}
+  special_user_file: {foreground: "#4c963e"}
+  special_other: {foreground: "#5f9c92"}
+  attribute: {foreground: "#5f9c92"}
+
+size:
+  major: {foreground: "#5f9c92"}
+  minor: {foreground: "#963e4c"}
+  number_byte: {foreground: "#81b5ac"}
+  number_kilo: {foreground: "#81b5ac"}
+  number_mega: {foreground: "#96883e"}
+  number_giga: {foreground: "#4c963e"}
+  number_huge: {foreground: "#4c963e"}
+  unit_byte: {foreground: "#5f9c92"}
+  unit_kilo: {foreground: "#96883e"}
+  unit_mega: {foreground: "#4c963e"}
+  unit_giga: {foreground: "#4c963e"}
+  unit_huge: {foreground: "#96883e"}
+
+users:
+  user_you: {foreground: "#81b5ac"}
+  user_root: {foreground: "#3e9688"}
+  user_other: {foreground: "#4c963e"}
+  group_yours: {foreground: "#81b5ac"}
+  group_other: {foreground: "#5f9c92"}
+  group_root: {foreground: "#3e9688"}
+
+links:
+  normal: {foreground: "#963e4c"}
+  multi_link_file: {foreground: "#96883e"}
+
+git:
+  new: {foreground: "#883e96"}
+  modified: {foreground: "#3e4c96"}
+  deleted: {foreground: "#3e9688"}
+  renamed: {foreground: "#883e96"}
+  typechange: {foreground: "#4c963e"}
+  ignored: {foreground: "#5f9c92"}
+  conflicted: {foreground: "#3e9688"}
+
+git_repo:
+  branch_main: {foreground: "#81b5ac"}
+  branch_other: {foreground: "#4c963e"}
+  git_clean: {foreground: "#883e96"}
+  git_dirty: {foreground: "#3e9688"}
+
+security_context:
+  colon: {foreground: "#5f9c92"}
+  user: {foreground: "#81b5ac"}
+  role: {foreground: "#4c963e"}
+  typ: {foreground: "#5f9c92"}
+  range: {foreground: "#4c963e"}
+
+file_type:
+  image: {foreground: "#3e4c96"}
+  video: {foreground: "#3e9688"}
+  music: {foreground: "#883e96"}
+  lossless: {foreground: "#963e4c"}
+  crypto: {foreground: "#5f9c92"}
+  document: {foreground: "#81b5ac"}
+  compressed: {foreground: "#4c963e"}
+  temp: {foreground: "#3e9688"}
+  compiled: {foreground: "#96883e"}
+  build: {foreground: "#5f9c92"}
+  source: {foreground: "#96883e"}
+
+punctuation: {foreground: "#5f9c92"}
+date: {foreground: "#3e4c96"}
+inode: {foreground: "#5f9c92"}
+blocks: {foreground: "#5f9c92"}
+header: {foreground: "#81b5ac"}
+octal: {foreground: "#963e4c"}
+flags: {foreground: "#4c963e"}
+
+symlink_path: {foreground: "#963e4c"}
+control_char: {foreground: "#96883e"}
+broken_symlink: {foreground: "#3e9688"}
+broken_path_overlay: {foreground: "#5f9c92"}

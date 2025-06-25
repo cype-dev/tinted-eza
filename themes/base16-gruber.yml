@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: Gruber
+# Scheme Author: Patel, Nimai &lt;nimai.m.patel@gmail.com&gt;, colors from www.github.com/rexim/gruber-darker-theme
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#f4f4ff"}
+  directory: {foreground: "#96a6c8"}
+  symlink: {foreground: "#95a99f"}
+  pipe: {foreground: "#e4e4ef"}
+  block_device: {foreground: "#ffdd33"}
+  char_device: {foreground: "#ffdd33"}
+  socket: {foreground: "#e4e4ef"}
+  special: {foreground: "#9e95c7"}
+  executable: {foreground: "#73c936"}
+  mount_point: {foreground: "#96a6c8"}
+
+perms:
+  user_read: {foreground: "#f4f4ff"}
+  user_write: {foreground: "#c73c3f"}
+  user_execute_file: {foreground: "#73c936"}
+  user_execute_other: {foreground: "#73c936"}
+  group_read: {foreground: "#f4f4ff"}
+  group_write: {foreground: "#c73c3f"}
+  group_execute: {foreground: "#73c936"}
+  other_read: {foreground: "#e4e4ef"}
+  other_write: {foreground: "#c73c3f"}
+  other_execute: {foreground: "#73c936"}
+  special_user_file: {foreground: "#9e95c7"}
+  special_other: {foreground: "#e4e4ef"}
+  attribute: {foreground: "#e4e4ef"}
+
+size:
+  major: {foreground: "#e4e4ef"}
+  minor: {foreground: "#95a99f"}
+  number_byte: {foreground: "#f4f4ff"}
+  number_kilo: {foreground: "#f4f4ff"}
+  number_mega: {foreground: "#96a6c8"}
+  number_giga: {foreground: "#9e95c7"}
+  number_huge: {foreground: "#9e95c7"}
+  unit_byte: {foreground: "#e4e4ef"}
+  unit_kilo: {foreground: "#96a6c8"}
+  unit_mega: {foreground: "#9e95c7"}
+  unit_giga: {foreground: "#9e95c7"}
+  unit_huge: {foreground: "#96a6c8"}
+
+users:
+  user_you: {foreground: "#f4f4ff"}
+  user_root: {foreground: "#f43841"}
+  user_other: {foreground: "#9e95c7"}
+  group_yours: {foreground: "#f4f4ff"}
+  group_other: {foreground: "#e4e4ef"}
+  group_root: {foreground: "#f43841"}
+
+links:
+  normal: {foreground: "#95a99f"}
+  multi_link_file: {foreground: "#96a6c8"}
+
+git:
+  new: {foreground: "#73c936"}
+  modified: {foreground: "#ffdd33"}
+  deleted: {foreground: "#f43841"}
+  renamed: {foreground: "#73c936"}
+  typechange: {foreground: "#9e95c7"}
+  ignored: {foreground: "#e4e4ef"}
+  conflicted: {foreground: "#f43841"}
+
+git_repo:
+  branch_main: {foreground: "#f4f4ff"}
+  branch_other: {foreground: "#9e95c7"}
+  git_clean: {foreground: "#73c936"}
+  git_dirty: {foreground: "#f43841"}
+
+security_context:
+  colon: {foreground: "#e4e4ef"}
+  user: {foreground: "#f4f4ff"}
+  role: {foreground: "#9e95c7"}
+  typ: {foreground: "#e4e4ef"}
+  range: {foreground: "#9e95c7"}
+
+file_type:
+  image: {foreground: "#ffdd33"}
+  video: {foreground: "#f43841"}
+  music: {foreground: "#73c936"}
+  lossless: {foreground: "#95a99f"}
+  crypto: {foreground: "#e4e4ef"}
+  document: {foreground: "#f4f4ff"}
+  compressed: {foreground: "#9e95c7"}
+  temp: {foreground: "#f43841"}
+  compiled: {foreground: "#96a6c8"}
+  build: {foreground: "#e4e4ef"}
+  source: {foreground: "#96a6c8"}
+
+punctuation: {foreground: "#e4e4ef"}
+date: {foreground: "#ffdd33"}
+inode: {foreground: "#e4e4ef"}
+blocks: {foreground: "#e4e4ef"}
+header: {foreground: "#f4f4ff"}
+octal: {foreground: "#95a99f"}
+flags: {foreground: "#9e95c7"}
+
+symlink_path: {foreground: "#95a99f"}
+control_char: {foreground: "#96a6c8"}
+broken_symlink: {foreground: "#f43841"}
+broken_path_overlay: {foreground: "#e4e4ef"}

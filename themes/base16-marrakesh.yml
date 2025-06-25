@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: Marrakesh
+# Scheme Author: Alexandre Gavioli (http://github.com/Alexx2/)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#948e48"}
+  directory: {foreground: "#477ca1"}
+  symlink: {foreground: "#75a738"}
+  pipe: {foreground: "#86813b"}
+  block_device: {foreground: "#a88339"}
+  char_device: {foreground: "#a88339"}
+  socket: {foreground: "#86813b"}
+  special: {foreground: "#8868b3"}
+  executable: {foreground: "#18974e"}
+  mount_point: {foreground: "#477ca1"}
+
+perms:
+  user_read: {foreground: "#948e48"}
+  user_write: {foreground: "#b36144"}
+  user_execute_file: {foreground: "#18974e"}
+  user_execute_other: {foreground: "#18974e"}
+  group_read: {foreground: "#948e48"}
+  group_write: {foreground: "#b36144"}
+  group_execute: {foreground: "#18974e"}
+  other_read: {foreground: "#86813b"}
+  other_write: {foreground: "#b36144"}
+  other_execute: {foreground: "#18974e"}
+  special_user_file: {foreground: "#8868b3"}
+  special_other: {foreground: "#86813b"}
+  attribute: {foreground: "#86813b"}
+
+size:
+  major: {foreground: "#86813b"}
+  minor: {foreground: "#75a738"}
+  number_byte: {foreground: "#948e48"}
+  number_kilo: {foreground: "#948e48"}
+  number_mega: {foreground: "#477ca1"}
+  number_giga: {foreground: "#8868b3"}
+  number_huge: {foreground: "#8868b3"}
+  unit_byte: {foreground: "#86813b"}
+  unit_kilo: {foreground: "#477ca1"}
+  unit_mega: {foreground: "#8868b3"}
+  unit_giga: {foreground: "#8868b3"}
+  unit_huge: {foreground: "#477ca1"}
+
+users:
+  user_you: {foreground: "#948e48"}
+  user_root: {foreground: "#c35359"}
+  user_other: {foreground: "#8868b3"}
+  group_yours: {foreground: "#948e48"}
+  group_other: {foreground: "#86813b"}
+  group_root: {foreground: "#c35359"}
+
+links:
+  normal: {foreground: "#75a738"}
+  multi_link_file: {foreground: "#477ca1"}
+
+git:
+  new: {foreground: "#18974e"}
+  modified: {foreground: "#a88339"}
+  deleted: {foreground: "#c35359"}
+  renamed: {foreground: "#18974e"}
+  typechange: {foreground: "#8868b3"}
+  ignored: {foreground: "#86813b"}
+  conflicted: {foreground: "#c35359"}
+
+git_repo:
+  branch_main: {foreground: "#948e48"}
+  branch_other: {foreground: "#8868b3"}
+  git_clean: {foreground: "#18974e"}
+  git_dirty: {foreground: "#c35359"}
+
+security_context:
+  colon: {foreground: "#86813b"}
+  user: {foreground: "#948e48"}
+  role: {foreground: "#8868b3"}
+  typ: {foreground: "#86813b"}
+  range: {foreground: "#8868b3"}
+
+file_type:
+  image: {foreground: "#a88339"}
+  video: {foreground: "#c35359"}
+  music: {foreground: "#18974e"}
+  lossless: {foreground: "#75a738"}
+  crypto: {foreground: "#86813b"}
+  document: {foreground: "#948e48"}
+  compressed: {foreground: "#8868b3"}
+  temp: {foreground: "#c35359"}
+  compiled: {foreground: "#477ca1"}
+  build: {foreground: "#86813b"}
+  source: {foreground: "#477ca1"}
+
+punctuation: {foreground: "#86813b"}
+date: {foreground: "#a88339"}
+inode: {foreground: "#86813b"}
+blocks: {foreground: "#86813b"}
+header: {foreground: "#948e48"}
+octal: {foreground: "#75a738"}
+flags: {foreground: "#8868b3"}
+
+symlink_path: {foreground: "#75a738"}
+control_char: {foreground: "#477ca1"}
+broken_symlink: {foreground: "#c35359"}
+broken_path_overlay: {foreground: "#86813b"}

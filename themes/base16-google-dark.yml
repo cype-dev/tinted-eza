@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: Google Dark
+# Scheme Author: Seth Wright (http://sethawright.com)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#c5c8c6"}
+  directory: {foreground: "#3971ed"}
+  symlink: {foreground: "#3971ed"}
+  pipe: {foreground: "#b4b7b4"}
+  block_device: {foreground: "#fba922"}
+  char_device: {foreground: "#fba922"}
+  socket: {foreground: "#b4b7b4"}
+  special: {foreground: "#a36ac7"}
+  executable: {foreground: "#198844"}
+  mount_point: {foreground: "#3971ed"}
+
+perms:
+  user_read: {foreground: "#c5c8c6"}
+  user_write: {foreground: "#f96a38"}
+  user_execute_file: {foreground: "#198844"}
+  user_execute_other: {foreground: "#198844"}
+  group_read: {foreground: "#c5c8c6"}
+  group_write: {foreground: "#f96a38"}
+  group_execute: {foreground: "#198844"}
+  other_read: {foreground: "#b4b7b4"}
+  other_write: {foreground: "#f96a38"}
+  other_execute: {foreground: "#198844"}
+  special_user_file: {foreground: "#a36ac7"}
+  special_other: {foreground: "#b4b7b4"}
+  attribute: {foreground: "#b4b7b4"}
+
+size:
+  major: {foreground: "#b4b7b4"}
+  minor: {foreground: "#3971ed"}
+  number_byte: {foreground: "#c5c8c6"}
+  number_kilo: {foreground: "#c5c8c6"}
+  number_mega: {foreground: "#3971ed"}
+  number_giga: {foreground: "#a36ac7"}
+  number_huge: {foreground: "#a36ac7"}
+  unit_byte: {foreground: "#b4b7b4"}
+  unit_kilo: {foreground: "#3971ed"}
+  unit_mega: {foreground: "#a36ac7"}
+  unit_giga: {foreground: "#a36ac7"}
+  unit_huge: {foreground: "#3971ed"}
+
+users:
+  user_you: {foreground: "#c5c8c6"}
+  user_root: {foreground: "#cc342b"}
+  user_other: {foreground: "#a36ac7"}
+  group_yours: {foreground: "#c5c8c6"}
+  group_other: {foreground: "#b4b7b4"}
+  group_root: {foreground: "#cc342b"}
+
+links:
+  normal: {foreground: "#3971ed"}
+  multi_link_file: {foreground: "#3971ed"}
+
+git:
+  new: {foreground: "#198844"}
+  modified: {foreground: "#fba922"}
+  deleted: {foreground: "#cc342b"}
+  renamed: {foreground: "#198844"}
+  typechange: {foreground: "#a36ac7"}
+  ignored: {foreground: "#b4b7b4"}
+  conflicted: {foreground: "#cc342b"}
+
+git_repo:
+  branch_main: {foreground: "#c5c8c6"}
+  branch_other: {foreground: "#a36ac7"}
+  git_clean: {foreground: "#198844"}
+  git_dirty: {foreground: "#cc342b"}
+
+security_context:
+  colon: {foreground: "#b4b7b4"}
+  user: {foreground: "#c5c8c6"}
+  role: {foreground: "#a36ac7"}
+  typ: {foreground: "#b4b7b4"}
+  range: {foreground: "#a36ac7"}
+
+file_type:
+  image: {foreground: "#fba922"}
+  video: {foreground: "#cc342b"}
+  music: {foreground: "#198844"}
+  lossless: {foreground: "#3971ed"}
+  crypto: {foreground: "#b4b7b4"}
+  document: {foreground: "#c5c8c6"}
+  compressed: {foreground: "#a36ac7"}
+  temp: {foreground: "#cc342b"}
+  compiled: {foreground: "#3971ed"}
+  build: {foreground: "#b4b7b4"}
+  source: {foreground: "#3971ed"}
+
+punctuation: {foreground: "#b4b7b4"}
+date: {foreground: "#fba922"}
+inode: {foreground: "#b4b7b4"}
+blocks: {foreground: "#b4b7b4"}
+header: {foreground: "#c5c8c6"}
+octal: {foreground: "#3971ed"}
+flags: {foreground: "#a36ac7"}
+
+symlink_path: {foreground: "#3971ed"}
+control_char: {foreground: "#3971ed"}
+broken_symlink: {foreground: "#cc342b"}
+broken_path_overlay: {foreground: "#b4b7b4"}

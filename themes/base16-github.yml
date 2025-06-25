@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: Github
+# Scheme Author: Tinted Theming (https://github.com/tinted-theming)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#424a53"}
+  directory: {foreground: "#218bff"}
+  symlink: {foreground: "#339d9b"}
+  pipe: {foreground: "#6e7781"}
+  block_device: {foreground: "#bf8700"}
+  char_device: {foreground: "#bf8700"}
+  socket: {foreground: "#6e7781"}
+  special: {foreground: "#a475f9"}
+  executable: {foreground: "#2da44e"}
+  mount_point: {foreground: "#218bff"}
+
+perms:
+  user_read: {foreground: "#424a53"}
+  user_write: {foreground: "#e16f24"}
+  user_execute_file: {foreground: "#2da44e"}
+  user_execute_other: {foreground: "#2da44e"}
+  group_read: {foreground: "#424a53"}
+  group_write: {foreground: "#e16f24"}
+  group_execute: {foreground: "#2da44e"}
+  other_read: {foreground: "#6e7781"}
+  other_write: {foreground: "#e16f24"}
+  other_execute: {foreground: "#2da44e"}
+  special_user_file: {foreground: "#a475f9"}
+  special_other: {foreground: "#6e7781"}
+  attribute: {foreground: "#6e7781"}
+
+size:
+  major: {foreground: "#6e7781"}
+  minor: {foreground: "#339d9b"}
+  number_byte: {foreground: "#424a53"}
+  number_kilo: {foreground: "#424a53"}
+  number_mega: {foreground: "#218bff"}
+  number_giga: {foreground: "#a475f9"}
+  number_huge: {foreground: "#a475f9"}
+  unit_byte: {foreground: "#6e7781"}
+  unit_kilo: {foreground: "#218bff"}
+  unit_mega: {foreground: "#a475f9"}
+  unit_giga: {foreground: "#a475f9"}
+  unit_huge: {foreground: "#218bff"}
+
+users:
+  user_you: {foreground: "#424a53"}
+  user_root: {foreground: "#fa4549"}
+  user_other: {foreground: "#a475f9"}
+  group_yours: {foreground: "#424a53"}
+  group_other: {foreground: "#6e7781"}
+  group_root: {foreground: "#fa4549"}
+
+links:
+  normal: {foreground: "#339d9b"}
+  multi_link_file: {foreground: "#218bff"}
+
+git:
+  new: {foreground: "#2da44e"}
+  modified: {foreground: "#bf8700"}
+  deleted: {foreground: "#fa4549"}
+  renamed: {foreground: "#2da44e"}
+  typechange: {foreground: "#a475f9"}
+  ignored: {foreground: "#6e7781"}
+  conflicted: {foreground: "#fa4549"}
+
+git_repo:
+  branch_main: {foreground: "#424a53"}
+  branch_other: {foreground: "#a475f9"}
+  git_clean: {foreground: "#2da44e"}
+  git_dirty: {foreground: "#fa4549"}
+
+security_context:
+  colon: {foreground: "#6e7781"}
+  user: {foreground: "#424a53"}
+  role: {foreground: "#a475f9"}
+  typ: {foreground: "#6e7781"}
+  range: {foreground: "#a475f9"}
+
+file_type:
+  image: {foreground: "#bf8700"}
+  video: {foreground: "#fa4549"}
+  music: {foreground: "#2da44e"}
+  lossless: {foreground: "#339d9b"}
+  crypto: {foreground: "#6e7781"}
+  document: {foreground: "#424a53"}
+  compressed: {foreground: "#a475f9"}
+  temp: {foreground: "#fa4549"}
+  compiled: {foreground: "#218bff"}
+  build: {foreground: "#6e7781"}
+  source: {foreground: "#218bff"}
+
+punctuation: {foreground: "#6e7781"}
+date: {foreground: "#bf8700"}
+inode: {foreground: "#6e7781"}
+blocks: {foreground: "#6e7781"}
+header: {foreground: "#424a53"}
+octal: {foreground: "#339d9b"}
+flags: {foreground: "#a475f9"}
+
+symlink_path: {foreground: "#339d9b"}
+control_char: {foreground: "#218bff"}
+broken_symlink: {foreground: "#fa4549"}
+broken_path_overlay: {foreground: "#6e7781"}

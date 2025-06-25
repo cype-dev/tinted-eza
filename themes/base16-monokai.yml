@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: Monokai
+# Scheme Author: Wimer Hazenberg (http://www.monokai.nl)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#f8f8f2"}
+  directory: {foreground: "#66d9ef"}
+  symlink: {foreground: "#a1efe4"}
+  pipe: {foreground: "#a59f85"}
+  block_device: {foreground: "#f4bf75"}
+  char_device: {foreground: "#f4bf75"}
+  socket: {foreground: "#a59f85"}
+  special: {foreground: "#ae81ff"}
+  executable: {foreground: "#a6e22e"}
+  mount_point: {foreground: "#66d9ef"}
+
+perms:
+  user_read: {foreground: "#f8f8f2"}
+  user_write: {foreground: "#fd971f"}
+  user_execute_file: {foreground: "#a6e22e"}
+  user_execute_other: {foreground: "#a6e22e"}
+  group_read: {foreground: "#f8f8f2"}
+  group_write: {foreground: "#fd971f"}
+  group_execute: {foreground: "#a6e22e"}
+  other_read: {foreground: "#a59f85"}
+  other_write: {foreground: "#fd971f"}
+  other_execute: {foreground: "#a6e22e"}
+  special_user_file: {foreground: "#ae81ff"}
+  special_other: {foreground: "#a59f85"}
+  attribute: {foreground: "#a59f85"}
+
+size:
+  major: {foreground: "#a59f85"}
+  minor: {foreground: "#a1efe4"}
+  number_byte: {foreground: "#f8f8f2"}
+  number_kilo: {foreground: "#f8f8f2"}
+  number_mega: {foreground: "#66d9ef"}
+  number_giga: {foreground: "#ae81ff"}
+  number_huge: {foreground: "#ae81ff"}
+  unit_byte: {foreground: "#a59f85"}
+  unit_kilo: {foreground: "#66d9ef"}
+  unit_mega: {foreground: "#ae81ff"}
+  unit_giga: {foreground: "#ae81ff"}
+  unit_huge: {foreground: "#66d9ef"}
+
+users:
+  user_you: {foreground: "#f8f8f2"}
+  user_root: {foreground: "#f92672"}
+  user_other: {foreground: "#ae81ff"}
+  group_yours: {foreground: "#f8f8f2"}
+  group_other: {foreground: "#a59f85"}
+  group_root: {foreground: "#f92672"}
+
+links:
+  normal: {foreground: "#a1efe4"}
+  multi_link_file: {foreground: "#66d9ef"}
+
+git:
+  new: {foreground: "#a6e22e"}
+  modified: {foreground: "#f4bf75"}
+  deleted: {foreground: "#f92672"}
+  renamed: {foreground: "#a6e22e"}
+  typechange: {foreground: "#ae81ff"}
+  ignored: {foreground: "#a59f85"}
+  conflicted: {foreground: "#f92672"}
+
+git_repo:
+  branch_main: {foreground: "#f8f8f2"}
+  branch_other: {foreground: "#ae81ff"}
+  git_clean: {foreground: "#a6e22e"}
+  git_dirty: {foreground: "#f92672"}
+
+security_context:
+  colon: {foreground: "#a59f85"}
+  user: {foreground: "#f8f8f2"}
+  role: {foreground: "#ae81ff"}
+  typ: {foreground: "#a59f85"}
+  range: {foreground: "#ae81ff"}
+
+file_type:
+  image: {foreground: "#f4bf75"}
+  video: {foreground: "#f92672"}
+  music: {foreground: "#a6e22e"}
+  lossless: {foreground: "#a1efe4"}
+  crypto: {foreground: "#a59f85"}
+  document: {foreground: "#f8f8f2"}
+  compressed: {foreground: "#ae81ff"}
+  temp: {foreground: "#f92672"}
+  compiled: {foreground: "#66d9ef"}
+  build: {foreground: "#a59f85"}
+  source: {foreground: "#66d9ef"}
+
+punctuation: {foreground: "#a59f85"}
+date: {foreground: "#f4bf75"}
+inode: {foreground: "#a59f85"}
+blocks: {foreground: "#a59f85"}
+header: {foreground: "#f8f8f2"}
+octal: {foreground: "#a1efe4"}
+flags: {foreground: "#ae81ff"}
+
+symlink_path: {foreground: "#a1efe4"}
+control_char: {foreground: "#66d9ef"}
+broken_symlink: {foreground: "#f92672"}
+broken_path_overlay: {foreground: "#a59f85"}

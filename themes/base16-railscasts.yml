@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: Railscasts
+# Scheme Author: Ryan Bates (http://railscasts.com)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#e6e1dc"}
+  directory: {foreground: "#6d9cbe"}
+  symlink: {foreground: "#519f50"}
+  pipe: {foreground: "#d4cfc9"}
+  block_device: {foreground: "#ffc66d"}
+  char_device: {foreground: "#ffc66d"}
+  socket: {foreground: "#d4cfc9"}
+  special: {foreground: "#b6b3eb"}
+  executable: {foreground: "#a5c261"}
+  mount_point: {foreground: "#6d9cbe"}
+
+perms:
+  user_read: {foreground: "#e6e1dc"}
+  user_write: {foreground: "#cc7833"}
+  user_execute_file: {foreground: "#a5c261"}
+  user_execute_other: {foreground: "#a5c261"}
+  group_read: {foreground: "#e6e1dc"}
+  group_write: {foreground: "#cc7833"}
+  group_execute: {foreground: "#a5c261"}
+  other_read: {foreground: "#d4cfc9"}
+  other_write: {foreground: "#cc7833"}
+  other_execute: {foreground: "#a5c261"}
+  special_user_file: {foreground: "#b6b3eb"}
+  special_other: {foreground: "#d4cfc9"}
+  attribute: {foreground: "#d4cfc9"}
+
+size:
+  major: {foreground: "#d4cfc9"}
+  minor: {foreground: "#519f50"}
+  number_byte: {foreground: "#e6e1dc"}
+  number_kilo: {foreground: "#e6e1dc"}
+  number_mega: {foreground: "#6d9cbe"}
+  number_giga: {foreground: "#b6b3eb"}
+  number_huge: {foreground: "#b6b3eb"}
+  unit_byte: {foreground: "#d4cfc9"}
+  unit_kilo: {foreground: "#6d9cbe"}
+  unit_mega: {foreground: "#b6b3eb"}
+  unit_giga: {foreground: "#b6b3eb"}
+  unit_huge: {foreground: "#6d9cbe"}
+
+users:
+  user_you: {foreground: "#e6e1dc"}
+  user_root: {foreground: "#da4939"}
+  user_other: {foreground: "#b6b3eb"}
+  group_yours: {foreground: "#e6e1dc"}
+  group_other: {foreground: "#d4cfc9"}
+  group_root: {foreground: "#da4939"}
+
+links:
+  normal: {foreground: "#519f50"}
+  multi_link_file: {foreground: "#6d9cbe"}
+
+git:
+  new: {foreground: "#a5c261"}
+  modified: {foreground: "#ffc66d"}
+  deleted: {foreground: "#da4939"}
+  renamed: {foreground: "#a5c261"}
+  typechange: {foreground: "#b6b3eb"}
+  ignored: {foreground: "#d4cfc9"}
+  conflicted: {foreground: "#da4939"}
+
+git_repo:
+  branch_main: {foreground: "#e6e1dc"}
+  branch_other: {foreground: "#b6b3eb"}
+  git_clean: {foreground: "#a5c261"}
+  git_dirty: {foreground: "#da4939"}
+
+security_context:
+  colon: {foreground: "#d4cfc9"}
+  user: {foreground: "#e6e1dc"}
+  role: {foreground: "#b6b3eb"}
+  typ: {foreground: "#d4cfc9"}
+  range: {foreground: "#b6b3eb"}
+
+file_type:
+  image: {foreground: "#ffc66d"}
+  video: {foreground: "#da4939"}
+  music: {foreground: "#a5c261"}
+  lossless: {foreground: "#519f50"}
+  crypto: {foreground: "#d4cfc9"}
+  document: {foreground: "#e6e1dc"}
+  compressed: {foreground: "#b6b3eb"}
+  temp: {foreground: "#da4939"}
+  compiled: {foreground: "#6d9cbe"}
+  build: {foreground: "#d4cfc9"}
+  source: {foreground: "#6d9cbe"}
+
+punctuation: {foreground: "#d4cfc9"}
+date: {foreground: "#ffc66d"}
+inode: {foreground: "#d4cfc9"}
+blocks: {foreground: "#d4cfc9"}
+header: {foreground: "#e6e1dc"}
+octal: {foreground: "#519f50"}
+flags: {foreground: "#b6b3eb"}
+
+symlink_path: {foreground: "#519f50"}
+control_char: {foreground: "#6d9cbe"}
+broken_symlink: {foreground: "#da4939"}
+broken_path_overlay: {foreground: "#d4cfc9"}

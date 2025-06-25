@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: Shades of Purple
+# Scheme Author: Iolar Demartini Junior (http://github.com/demartini), based on Shades of Purple Theme (https://github.com/ahmadawais/shades-of-purple-vscode)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#c7c7c7"}
+  directory: {foreground: "#6943ff"}
+  symlink: {foreground: "#00c5c7"}
+  pipe: {foreground: "#6871ff"}
+  block_device: {foreground: "#ffe700"}
+  char_device: {foreground: "#ffe700"}
+  socket: {foreground: "#6871ff"}
+  special: {foreground: "#ff2c70"}
+  executable: {foreground: "#3ad900"}
+  mount_point: {foreground: "#6943ff"}
+
+perms:
+  user_read: {foreground: "#c7c7c7"}
+  user_write: {foreground: "#f92a1c"}
+  user_execute_file: {foreground: "#3ad900"}
+  user_execute_other: {foreground: "#3ad900"}
+  group_read: {foreground: "#c7c7c7"}
+  group_write: {foreground: "#f92a1c"}
+  group_execute: {foreground: "#3ad900"}
+  other_read: {foreground: "#6871ff"}
+  other_write: {foreground: "#f92a1c"}
+  other_execute: {foreground: "#3ad900"}
+  special_user_file: {foreground: "#ff2c70"}
+  special_other: {foreground: "#6871ff"}
+  attribute: {foreground: "#6871ff"}
+
+size:
+  major: {foreground: "#6871ff"}
+  minor: {foreground: "#00c5c7"}
+  number_byte: {foreground: "#c7c7c7"}
+  number_kilo: {foreground: "#c7c7c7"}
+  number_mega: {foreground: "#6943ff"}
+  number_giga: {foreground: "#ff2c70"}
+  number_huge: {foreground: "#ff2c70"}
+  unit_byte: {foreground: "#6871ff"}
+  unit_kilo: {foreground: "#6943ff"}
+  unit_mega: {foreground: "#ff2c70"}
+  unit_giga: {foreground: "#ff2c70"}
+  unit_huge: {foreground: "#6943ff"}
+
+users:
+  user_you: {foreground: "#c7c7c7"}
+  user_root: {foreground: "#d90429"}
+  user_other: {foreground: "#ff2c70"}
+  group_yours: {foreground: "#c7c7c7"}
+  group_other: {foreground: "#6871ff"}
+  group_root: {foreground: "#d90429"}
+
+links:
+  normal: {foreground: "#00c5c7"}
+  multi_link_file: {foreground: "#6943ff"}
+
+git:
+  new: {foreground: "#3ad900"}
+  modified: {foreground: "#ffe700"}
+  deleted: {foreground: "#d90429"}
+  renamed: {foreground: "#3ad900"}
+  typechange: {foreground: "#ff2c70"}
+  ignored: {foreground: "#6871ff"}
+  conflicted: {foreground: "#d90429"}
+
+git_repo:
+  branch_main: {foreground: "#c7c7c7"}
+  branch_other: {foreground: "#ff2c70"}
+  git_clean: {foreground: "#3ad900"}
+  git_dirty: {foreground: "#d90429"}
+
+security_context:
+  colon: {foreground: "#6871ff"}
+  user: {foreground: "#c7c7c7"}
+  role: {foreground: "#ff2c70"}
+  typ: {foreground: "#6871ff"}
+  range: {foreground: "#ff2c70"}
+
+file_type:
+  image: {foreground: "#ffe700"}
+  video: {foreground: "#d90429"}
+  music: {foreground: "#3ad900"}
+  lossless: {foreground: "#00c5c7"}
+  crypto: {foreground: "#6871ff"}
+  document: {foreground: "#c7c7c7"}
+  compressed: {foreground: "#ff2c70"}
+  temp: {foreground: "#d90429"}
+  compiled: {foreground: "#6943ff"}
+  build: {foreground: "#6871ff"}
+  source: {foreground: "#6943ff"}
+
+punctuation: {foreground: "#6871ff"}
+date: {foreground: "#ffe700"}
+inode: {foreground: "#6871ff"}
+blocks: {foreground: "#6871ff"}
+header: {foreground: "#c7c7c7"}
+octal: {foreground: "#00c5c7"}
+flags: {foreground: "#ff2c70"}
+
+symlink_path: {foreground: "#00c5c7"}
+control_char: {foreground: "#6943ff"}
+broken_symlink: {foreground: "#d90429"}
+broken_path_overlay: {foreground: "#6871ff"}

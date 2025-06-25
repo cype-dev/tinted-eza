@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: Espresso
+# Scheme Author: Unknown. Maintained by Alex Mirrington (https://github.com/alexmirrington)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#cccccc"}
+  directory: {foreground: "#6c99bb"}
+  symlink: {foreground: "#bed6ff"}
+  pipe: {foreground: "#b4b7b4"}
+  block_device: {foreground: "#ffc66d"}
+  char_device: {foreground: "#ffc66d"}
+  socket: {foreground: "#b4b7b4"}
+  special: {foreground: "#d197d9"}
+  executable: {foreground: "#a5c261"}
+  mount_point: {foreground: "#6c99bb"}
+
+perms:
+  user_read: {foreground: "#cccccc"}
+  user_write: {foreground: "#f9a959"}
+  user_execute_file: {foreground: "#a5c261"}
+  user_execute_other: {foreground: "#a5c261"}
+  group_read: {foreground: "#cccccc"}
+  group_write: {foreground: "#f9a959"}
+  group_execute: {foreground: "#a5c261"}
+  other_read: {foreground: "#b4b7b4"}
+  other_write: {foreground: "#f9a959"}
+  other_execute: {foreground: "#a5c261"}
+  special_user_file: {foreground: "#d197d9"}
+  special_other: {foreground: "#b4b7b4"}
+  attribute: {foreground: "#b4b7b4"}
+
+size:
+  major: {foreground: "#b4b7b4"}
+  minor: {foreground: "#bed6ff"}
+  number_byte: {foreground: "#cccccc"}
+  number_kilo: {foreground: "#cccccc"}
+  number_mega: {foreground: "#6c99bb"}
+  number_giga: {foreground: "#d197d9"}
+  number_huge: {foreground: "#d197d9"}
+  unit_byte: {foreground: "#b4b7b4"}
+  unit_kilo: {foreground: "#6c99bb"}
+  unit_mega: {foreground: "#d197d9"}
+  unit_giga: {foreground: "#d197d9"}
+  unit_huge: {foreground: "#6c99bb"}
+
+users:
+  user_you: {foreground: "#cccccc"}
+  user_root: {foreground: "#d25252"}
+  user_other: {foreground: "#d197d9"}
+  group_yours: {foreground: "#cccccc"}
+  group_other: {foreground: "#b4b7b4"}
+  group_root: {foreground: "#d25252"}
+
+links:
+  normal: {foreground: "#bed6ff"}
+  multi_link_file: {foreground: "#6c99bb"}
+
+git:
+  new: {foreground: "#a5c261"}
+  modified: {foreground: "#ffc66d"}
+  deleted: {foreground: "#d25252"}
+  renamed: {foreground: "#a5c261"}
+  typechange: {foreground: "#d197d9"}
+  ignored: {foreground: "#b4b7b4"}
+  conflicted: {foreground: "#d25252"}
+
+git_repo:
+  branch_main: {foreground: "#cccccc"}
+  branch_other: {foreground: "#d197d9"}
+  git_clean: {foreground: "#a5c261"}
+  git_dirty: {foreground: "#d25252"}
+
+security_context:
+  colon: {foreground: "#b4b7b4"}
+  user: {foreground: "#cccccc"}
+  role: {foreground: "#d197d9"}
+  typ: {foreground: "#b4b7b4"}
+  range: {foreground: "#d197d9"}
+
+file_type:
+  image: {foreground: "#ffc66d"}
+  video: {foreground: "#d25252"}
+  music: {foreground: "#a5c261"}
+  lossless: {foreground: "#bed6ff"}
+  crypto: {foreground: "#b4b7b4"}
+  document: {foreground: "#cccccc"}
+  compressed: {foreground: "#d197d9"}
+  temp: {foreground: "#d25252"}
+  compiled: {foreground: "#6c99bb"}
+  build: {foreground: "#b4b7b4"}
+  source: {foreground: "#6c99bb"}
+
+punctuation: {foreground: "#b4b7b4"}
+date: {foreground: "#ffc66d"}
+inode: {foreground: "#b4b7b4"}
+blocks: {foreground: "#b4b7b4"}
+header: {foreground: "#cccccc"}
+octal: {foreground: "#bed6ff"}
+flags: {foreground: "#d197d9"}
+
+symlink_path: {foreground: "#bed6ff"}
+control_char: {foreground: "#6c99bb"}
+broken_symlink: {foreground: "#d25252"}
+broken_path_overlay: {foreground: "#b4b7b4"}

@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: Atelier Lakeside Light
+# Scheme Author: Bram de Haan (http://atelierbramdehaan.nl)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#516d7b"}
+  directory: {foreground: "#257fad"}
+  symlink: {foreground: "#2d8f6f"}
+  pipe: {foreground: "#5a7b8c"}
+  block_device: {foreground: "#8a8a0f"}
+  char_device: {foreground: "#8a8a0f"}
+  socket: {foreground: "#5a7b8c"}
+  special: {foreground: "#6b6bb8"}
+  executable: {foreground: "#568c3b"}
+  mount_point: {foreground: "#257fad"}
+
+perms:
+  user_read: {foreground: "#516d7b"}
+  user_write: {foreground: "#935c25"}
+  user_execute_file: {foreground: "#568c3b"}
+  user_execute_other: {foreground: "#568c3b"}
+  group_read: {foreground: "#516d7b"}
+  group_write: {foreground: "#935c25"}
+  group_execute: {foreground: "#568c3b"}
+  other_read: {foreground: "#5a7b8c"}
+  other_write: {foreground: "#935c25"}
+  other_execute: {foreground: "#568c3b"}
+  special_user_file: {foreground: "#6b6bb8"}
+  special_other: {foreground: "#5a7b8c"}
+  attribute: {foreground: "#5a7b8c"}
+
+size:
+  major: {foreground: "#5a7b8c"}
+  minor: {foreground: "#2d8f6f"}
+  number_byte: {foreground: "#516d7b"}
+  number_kilo: {foreground: "#516d7b"}
+  number_mega: {foreground: "#257fad"}
+  number_giga: {foreground: "#6b6bb8"}
+  number_huge: {foreground: "#6b6bb8"}
+  unit_byte: {foreground: "#5a7b8c"}
+  unit_kilo: {foreground: "#257fad"}
+  unit_mega: {foreground: "#6b6bb8"}
+  unit_giga: {foreground: "#6b6bb8"}
+  unit_huge: {foreground: "#257fad"}
+
+users:
+  user_you: {foreground: "#516d7b"}
+  user_root: {foreground: "#d22d72"}
+  user_other: {foreground: "#6b6bb8"}
+  group_yours: {foreground: "#516d7b"}
+  group_other: {foreground: "#5a7b8c"}
+  group_root: {foreground: "#d22d72"}
+
+links:
+  normal: {foreground: "#2d8f6f"}
+  multi_link_file: {foreground: "#257fad"}
+
+git:
+  new: {foreground: "#568c3b"}
+  modified: {foreground: "#8a8a0f"}
+  deleted: {foreground: "#d22d72"}
+  renamed: {foreground: "#568c3b"}
+  typechange: {foreground: "#6b6bb8"}
+  ignored: {foreground: "#5a7b8c"}
+  conflicted: {foreground: "#d22d72"}
+
+git_repo:
+  branch_main: {foreground: "#516d7b"}
+  branch_other: {foreground: "#6b6bb8"}
+  git_clean: {foreground: "#568c3b"}
+  git_dirty: {foreground: "#d22d72"}
+
+security_context:
+  colon: {foreground: "#5a7b8c"}
+  user: {foreground: "#516d7b"}
+  role: {foreground: "#6b6bb8"}
+  typ: {foreground: "#5a7b8c"}
+  range: {foreground: "#6b6bb8"}
+
+file_type:
+  image: {foreground: "#8a8a0f"}
+  video: {foreground: "#d22d72"}
+  music: {foreground: "#568c3b"}
+  lossless: {foreground: "#2d8f6f"}
+  crypto: {foreground: "#5a7b8c"}
+  document: {foreground: "#516d7b"}
+  compressed: {foreground: "#6b6bb8"}
+  temp: {foreground: "#d22d72"}
+  compiled: {foreground: "#257fad"}
+  build: {foreground: "#5a7b8c"}
+  source: {foreground: "#257fad"}
+
+punctuation: {foreground: "#5a7b8c"}
+date: {foreground: "#8a8a0f"}
+inode: {foreground: "#5a7b8c"}
+blocks: {foreground: "#5a7b8c"}
+header: {foreground: "#516d7b"}
+octal: {foreground: "#2d8f6f"}
+flags: {foreground: "#6b6bb8"}
+
+symlink_path: {foreground: "#2d8f6f"}
+control_char: {foreground: "#257fad"}
+broken_symlink: {foreground: "#d22d72"}
+broken_path_overlay: {foreground: "#5a7b8c"}

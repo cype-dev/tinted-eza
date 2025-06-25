@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: Nova
+# Scheme Author: George Essig (https://github.com/gessig), Trevor D. Miller (https://trevordmiller.com)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#c5d4dd"}
+  directory: {foreground: "#83afe5"}
+  symlink: {foreground: "#f2c38f"}
+  pipe: {foreground: "#899ba6"}
+  block_device: {foreground: "#a8ce93"}
+  char_device: {foreground: "#a8ce93"}
+  socket: {foreground: "#899ba6"}
+  special: {foreground: "#9a93e1"}
+  executable: {foreground: "#7fc1ca"}
+  mount_point: {foreground: "#83afe5"}
+
+perms:
+  user_read: {foreground: "#c5d4dd"}
+  user_write: {foreground: "#7fc1ca"}
+  user_execute_file: {foreground: "#7fc1ca"}
+  user_execute_other: {foreground: "#7fc1ca"}
+  group_read: {foreground: "#c5d4dd"}
+  group_write: {foreground: "#7fc1ca"}
+  group_execute: {foreground: "#7fc1ca"}
+  other_read: {foreground: "#899ba6"}
+  other_write: {foreground: "#7fc1ca"}
+  other_execute: {foreground: "#7fc1ca"}
+  special_user_file: {foreground: "#9a93e1"}
+  special_other: {foreground: "#899ba6"}
+  attribute: {foreground: "#899ba6"}
+
+size:
+  major: {foreground: "#899ba6"}
+  minor: {foreground: "#f2c38f"}
+  number_byte: {foreground: "#c5d4dd"}
+  number_kilo: {foreground: "#c5d4dd"}
+  number_mega: {foreground: "#83afe5"}
+  number_giga: {foreground: "#9a93e1"}
+  number_huge: {foreground: "#9a93e1"}
+  unit_byte: {foreground: "#899ba6"}
+  unit_kilo: {foreground: "#83afe5"}
+  unit_mega: {foreground: "#9a93e1"}
+  unit_giga: {foreground: "#9a93e1"}
+  unit_huge: {foreground: "#83afe5"}
+
+users:
+  user_you: {foreground: "#c5d4dd"}
+  user_root: {foreground: "#83afe5"}
+  user_other: {foreground: "#9a93e1"}
+  group_yours: {foreground: "#c5d4dd"}
+  group_other: {foreground: "#899ba6"}
+  group_root: {foreground: "#83afe5"}
+
+links:
+  normal: {foreground: "#f2c38f"}
+  multi_link_file: {foreground: "#83afe5"}
+
+git:
+  new: {foreground: "#7fc1ca"}
+  modified: {foreground: "#a8ce93"}
+  deleted: {foreground: "#83afe5"}
+  renamed: {foreground: "#7fc1ca"}
+  typechange: {foreground: "#9a93e1"}
+  ignored: {foreground: "#899ba6"}
+  conflicted: {foreground: "#83afe5"}
+
+git_repo:
+  branch_main: {foreground: "#c5d4dd"}
+  branch_other: {foreground: "#9a93e1"}
+  git_clean: {foreground: "#7fc1ca"}
+  git_dirty: {foreground: "#83afe5"}
+
+security_context:
+  colon: {foreground: "#899ba6"}
+  user: {foreground: "#c5d4dd"}
+  role: {foreground: "#9a93e1"}
+  typ: {foreground: "#899ba6"}
+  range: {foreground: "#9a93e1"}
+
+file_type:
+  image: {foreground: "#a8ce93"}
+  video: {foreground: "#83afe5"}
+  music: {foreground: "#7fc1ca"}
+  lossless: {foreground: "#f2c38f"}
+  crypto: {foreground: "#899ba6"}
+  document: {foreground: "#c5d4dd"}
+  compressed: {foreground: "#9a93e1"}
+  temp: {foreground: "#83afe5"}
+  compiled: {foreground: "#83afe5"}
+  build: {foreground: "#899ba6"}
+  source: {foreground: "#83afe5"}
+
+punctuation: {foreground: "#899ba6"}
+date: {foreground: "#a8ce93"}
+inode: {foreground: "#899ba6"}
+blocks: {foreground: "#899ba6"}
+header: {foreground: "#c5d4dd"}
+octal: {foreground: "#f2c38f"}
+flags: {foreground: "#9a93e1"}
+
+symlink_path: {foreground: "#f2c38f"}
+control_char: {foreground: "#83afe5"}
+broken_symlink: {foreground: "#83afe5"}
+broken_path_overlay: {foreground: "#899ba6"}

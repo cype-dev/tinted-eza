@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: Digital Rain
+# Scheme Author: Nathan Byrd (https://github.com/cognitivegears)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#00ff00"}
+  directory: {foreground: "#5482af"}
+  symlink: {foreground: "#468c78"}
+  pipe: {foreground: "#919893"}
+  block_device: {foreground: "#a67a50"}
+  char_device: {foreground: "#a67a50"}
+  socket: {foreground: "#919893"}
+  special: {foreground: "#9472b4"}
+  executable: {foreground: "#64c83c"}
+  mount_point: {foreground: "#5482af"}
+
+perms:
+  user_read: {foreground: "#00ff00"}
+  user_write: {foreground: "#c86428"}
+  user_execute_file: {foreground: "#64c83c"}
+  user_execute_other: {foreground: "#64c83c"}
+  group_read: {foreground: "#00ff00"}
+  group_write: {foreground: "#c86428"}
+  group_execute: {foreground: "#64c83c"}
+  other_read: {foreground: "#919893"}
+  other_write: {foreground: "#c86428"}
+  other_execute: {foreground: "#64c83c"}
+  special_user_file: {foreground: "#9472b4"}
+  special_other: {foreground: "#919893"}
+  attribute: {foreground: "#919893"}
+
+size:
+  major: {foreground: "#919893"}
+  minor: {foreground: "#468c78"}
+  number_byte: {foreground: "#00ff00"}
+  number_kilo: {foreground: "#00ff00"}
+  number_mega: {foreground: "#5482af"}
+  number_giga: {foreground: "#9472b4"}
+  number_huge: {foreground: "#9472b4"}
+  unit_byte: {foreground: "#919893"}
+  unit_kilo: {foreground: "#5482af"}
+  unit_mega: {foreground: "#9472b4"}
+  unit_giga: {foreground: "#9472b4"}
+  unit_huge: {foreground: "#5482af"}
+
+users:
+  user_you: {foreground: "#00ff00"}
+  user_root: {foreground: "#c85a46"}
+  user_other: {foreground: "#9472b4"}
+  group_yours: {foreground: "#00ff00"}
+  group_other: {foreground: "#919893"}
+  group_root: {foreground: "#c85a46"}
+
+links:
+  normal: {foreground: "#468c78"}
+  multi_link_file: {foreground: "#5482af"}
+
+git:
+  new: {foreground: "#64c83c"}
+  modified: {foreground: "#a67a50"}
+  deleted: {foreground: "#c85a46"}
+  renamed: {foreground: "#64c83c"}
+  typechange: {foreground: "#9472b4"}
+  ignored: {foreground: "#919893"}
+  conflicted: {foreground: "#c85a46"}
+
+git_repo:
+  branch_main: {foreground: "#00ff00"}
+  branch_other: {foreground: "#9472b4"}
+  git_clean: {foreground: "#64c83c"}
+  git_dirty: {foreground: "#c85a46"}
+
+security_context:
+  colon: {foreground: "#919893"}
+  user: {foreground: "#00ff00"}
+  role: {foreground: "#9472b4"}
+  typ: {foreground: "#919893"}
+  range: {foreground: "#9472b4"}
+
+file_type:
+  image: {foreground: "#a67a50"}
+  video: {foreground: "#c85a46"}
+  music: {foreground: "#64c83c"}
+  lossless: {foreground: "#468c78"}
+  crypto: {foreground: "#919893"}
+  document: {foreground: "#00ff00"}
+  compressed: {foreground: "#9472b4"}
+  temp: {foreground: "#c85a46"}
+  compiled: {foreground: "#5482af"}
+  build: {foreground: "#919893"}
+  source: {foreground: "#5482af"}
+
+punctuation: {foreground: "#919893"}
+date: {foreground: "#a67a50"}
+inode: {foreground: "#919893"}
+blocks: {foreground: "#919893"}
+header: {foreground: "#00ff00"}
+octal: {foreground: "#468c78"}
+flags: {foreground: "#9472b4"}
+
+symlink_path: {foreground: "#468c78"}
+control_char: {foreground: "#5482af"}
+broken_symlink: {foreground: "#c85a46"}
+broken_path_overlay: {foreground: "#919893"}

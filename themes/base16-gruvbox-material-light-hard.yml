@@ -1,0 +1,108 @@
+# vim: ft=yaml
+
+# Scheme Name: Gruvbox Material Light, Hard
+# Scheme Author: Mayush Kumar (https://github.com/MayushKumar), sainnhe (https://github.com/sainnhe/gruvbox-material-vscode)
+# Scheme System: base16
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#654735"}
+  directory: {foreground: "#45707a"}
+  symlink: {foreground: "#4c7a5d"}
+  pipe: {foreground: "#c9b99a"}
+  block_device: {foreground: "#b47109"}
+  char_device: {foreground: "#b47109"}
+  socket: {foreground: "#c9b99a"}
+  special: {foreground: "#945e80"}
+  executable: {foreground: "#6c782e"}
+  mount_point: {foreground: "#45707a"}
+
+perms:
+  user_read: {foreground: "#654735"}
+  user_write: {foreground: "#c35e0a"}
+  user_execute_file: {foreground: "#6c782e"}
+  user_execute_other: {foreground: "#6c782e"}
+  group_read: {foreground: "#654735"}
+  group_write: {foreground: "#c35e0a"}
+  group_execute: {foreground: "#6c782e"}
+  other_read: {foreground: "#c9b99a"}
+  other_write: {foreground: "#c35e0a"}
+  other_execute: {foreground: "#6c782e"}
+  special_user_file: {foreground: "#945e80"}
+  special_other: {foreground: "#c9b99a"}
+  attribute: {foreground: "#c9b99a"}
+
+size:
+  major: {foreground: "#c9b99a"}
+  minor: {foreground: "#4c7a5d"}
+  number_byte: {foreground: "#654735"}
+  number_kilo: {foreground: "#654735"}
+  number_mega: {foreground: "#45707a"}
+  number_giga: {foreground: "#945e80"}
+  number_huge: {foreground: "#945e80"}
+  unit_byte: {foreground: "#c9b99a"}
+  unit_kilo: {foreground: "#45707a"}
+  unit_mega: {foreground: "#945e80"}
+  unit_giga: {foreground: "#945e80"}
+  unit_huge: {foreground: "#45707a"}
+
+users:
+  user_you: {foreground: "#654735"}
+  user_root: {foreground: "#c14a4a"}
+  user_other: {foreground: "#945e80"}
+  group_yours: {foreground: "#654735"}
+  group_other: {foreground: "#c9b99a"}
+  group_root: {foreground: "#c14a4a"}
+
+links:
+  normal: {foreground: "#4c7a5d"}
+  multi_link_file: {foreground: "#45707a"}
+
+git:
+  new: {foreground: "#6c782e"}
+  modified: {foreground: "#b47109"}
+  deleted: {foreground: "#c14a4a"}
+  renamed: {foreground: "#6c782e"}
+  typechange: {foreground: "#945e80"}
+  ignored: {foreground: "#c9b99a"}
+  conflicted: {foreground: "#c14a4a"}
+
+git_repo:
+  branch_main: {foreground: "#654735"}
+  branch_other: {foreground: "#945e80"}
+  git_clean: {foreground: "#6c782e"}
+  git_dirty: {foreground: "#c14a4a"}
+
+security_context:
+  colon: {foreground: "#c9b99a"}
+  user: {foreground: "#654735"}
+  role: {foreground: "#945e80"}
+  typ: {foreground: "#c9b99a"}
+  range: {foreground: "#945e80"}
+
+file_type:
+  image: {foreground: "#b47109"}
+  video: {foreground: "#c14a4a"}
+  music: {foreground: "#6c782e"}
+  lossless: {foreground: "#4c7a5d"}
+  crypto: {foreground: "#c9b99a"}
+  document: {foreground: "#654735"}
+  compressed: {foreground: "#945e80"}
+  temp: {foreground: "#c14a4a"}
+  compiled: {foreground: "#45707a"}
+  build: {foreground: "#c9b99a"}
+  source: {foreground: "#45707a"}
+
+punctuation: {foreground: "#c9b99a"}
+date: {foreground: "#b47109"}
+inode: {foreground: "#c9b99a"}
+blocks: {foreground: "#c9b99a"}
+header: {foreground: "#654735"}
+octal: {foreground: "#4c7a5d"}
+flags: {foreground: "#945e80"}
+
+symlink_path: {foreground: "#4c7a5d"}
+control_char: {foreground: "#45707a"}
+broken_symlink: {foreground: "#c14a4a"}
+broken_path_overlay: {foreground: "#c9b99a"}
